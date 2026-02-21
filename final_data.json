@@ -1,0 +1,278 @@
+{
+  "N1": {
+    "intent": "menanyakan biaya seo",
+    "role": "user",
+    "texts": [
+      {
+        "chat": "Hallo min saya mau bertanya tentang biaya SEO"
+      }
+    ],
+    "answers": {
+      "menanyakan_biaya_seo": [
+        {
+          "to": "N2"
+        }
+      ]
+    }
+  },
+  "N2": {
+    "intent": "menanyakan_biaya_seo",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": "Halo Kak! \n\nUntuk biaya SEO, kami punya beberapa pilihan nih. \n\nKalau website Kakak dibuat di PT. Asa Inovasi Software, biayanya Rp. 600.000,- per bulan untuk bahasa Indonesia dan Rp. 1.200.000,- per bulan untuk bahasa Inggris, dengan kontrak minimal 1 tahun.\n\nKalau website Kakak dibuat di luar PT. Asa Inovasi Software, biayanya Rp. 950.000,- per bulan untuk bahasa Indonesia dan Rp. 2.200.000,- per bulan untuk bahasa Inggris. Ada juga opsi kontrak langsung 12 bulan dengan harga spesial.\n\nBoleh tahu, website Kakak dibuat di sini atau di luar? Dan bisa kirimkan domainnya juga ya, biar kita bisa bantu lebih lanjut! 😊\n\nhallo selamat pagi kak, sebelumnya apakah bisa dikirimkan untuk link seo nya kak ?"
+      }
+    ],
+    "answers": {}
+  },
+  "N3": {
+    "intent": "menanyakan layanan",
+    "role": "user",
+    "texts": [
+      {
+        "chat": "Halo, saya ingin mengetahui lebih lanjut layanan dari asain.co.id\n\nKak mau iklan fb ads"
+      }
+    ],
+    "answers": {
+      "menyapa dan memperkenalkan diri, menawarkan layanan pt. asa inovasi software": [
+        {
+          "to": "N4"
+        }
+      ]
+    }
+  },
+  "N4": {
+    "intent": "menyapa dan memperkenalkan diri, menawarkan layanan pt. asa inovasi software",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": "Halo kak! \n\nDi PT. Asa Inovasi Software (Asain), kami punya berbagai layanan keren buat bantu perjalanan digital kamu. \n\nMulai dari jasa pembuatan website profesional, jasa iklan ads, optimasi SEO, pembuatan Google Bisnis, hingga layanan sosmed ads. \n\nPokoknya lengkap deh buat kebutuhan digital kamu! \n\nAda yang mau ditanyakan lebih lanjut atau langsung mau coba salah satu layanan kami? 😊\n\nUntuk iklan Facebook Ads, kami punya beberapa pilihan paket yang bisa kamu pilih sesuai kebutuhan. \n\nAda paket mingguan dan bulanan dengan berbagai saldo yang bisa disesuaikan. \n\nUntuk paket mingguan, ada pilihan saldo mulai dari 50rb hingga 200rb per hari. Sedangkan untuk paket bulanan, saldo mulai dari 50rb hingga 200rb per bulan. \n\nSetiap paket sudah termasuk konsultasi konten & target pasar, free konten design dan copy writing, serta laporan iklan setiap minggu. \n\nKalau mau info lebih lanjut atau langsung mau coba, kasih tahu aja ya! 😊"
+      }
+    ],
+    "answers": {
+      "menanyakan biaya paket": [
+        {
+          "to": "N5"
+        }
+      ]
+    }
+  },
+  "N5": {
+    "intent": "menanyakan biaya paket",
+    "role": "user",
+    "texts": [
+      {
+        "chat": "Iya harga paketnya brp?"
+      }
+    ],
+    "answers": {
+      "menyajikan informasi paket iklan facebook ads dan instagram": [
+        {
+          "to": "N6"
+        }
+      ]
+    }
+  },
+  "N6": {
+    "intent": "menyajikan informasi paket iklan facebook ads dan instagram",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": "Berikut harga paket Instagram/Facebook Ads yang kami tawarkan:\n\n**Paket Mingguan:**\n- Saldo 50rb/hari: Rp 738.500  \n- Saldo 100rb/hari: Rp 1.577.000  \n- Saldo 150rb/hari: Rp 1.765.500  \n- Saldo 200rb/hari: Rp 2.354.000  \n\n**Paket Bulanan:**\n- Saldo 50rb/bulan: Rp 2.465.000  \n- Saldo 100rb/bulan: Rp 4.530.000  \n- Saldo 150rb/bulan: Rp 6.695.000  \n- Saldo 200rb/bulan: Rp 8.960.000  \n\nSetiap paket sudah termasuk konsultasi konten & target pasar, free konten design dan copy writing, serta laporan iklan setiap minggu.  \n\nKalau ada yang mau ditanyakan lebih lanjut atau langsung mau coba, kasih tahu aja ya! 😊\n\nUsaha yang ingin diiklankan apa kak? Barangkali bisa kami carikan contoh iklan fb ads dibidang yang serupa kak"
+      }
+    ],
+    "answers": {
+      "mengemukakan_subyek": [
+        {
+          "to": "N7"
+        }
+      ]
+    }
+  },
+  "N7": {
+    "intent": "mengemukakan_subyek",
+    "role": "user",
+    "texts": [
+      {
+        "chat": "Rendang\n\nRendang kemasan"
+      }
+    ],
+    "answers": {
+      "membuat_iklan_rendang_di_facebook": [
+        {
+          "to": "N8"
+        }
+      ]
+    }
+  },
+  "N8": {
+    "intent": "membuat_iklan_rendang_di_facebook",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": "Mohon maaf,  \nsaat ini kami fokus melayani komunikasi yang relevan dengan layanan kami saja.  \n\nJika ada keperluan terkait layanan digital seperti pembuatan website, SEO, atau iklan digital,  \nsilakan hubungi kami.  \n\nTerima kasih atas pengertiannya! 😊\n\nWah, rendang! Makanan favorit banyak orang nih. \n\nUntuk iklan rendang di Facebook, kita bisa fokus pada kelezatan dan keunikan rasa rendang kamu. \n\nMisalnya, kita bisa buat konten yang menonjolkan bahan-bahan berkualitas, proses masak yang tradisional, dan testimoni dari pelanggan yang puas. \n\nJangan lupa juga untuk menargetkan audiens yang tepat, seperti pecinta kuliner atau orang-orang yang suka masakan khas Indonesia. \n\nKalau mau diskusi lebih lanjut atau langsung coba iklan, kasih tahu aja ya! 😊"
+      }
+    ],
+    "answers": {
+      "menanyakan_harga": [
+        {
+          "to": "N9"
+        }
+      ]
+    }
+  },
+  "N9": {
+    "intent": "menanyakan_harga",
+    "role": "user",
+    "texts": [
+      {
+        "chat": "Boleh\n\nBrp kak?"
+      }
+    ],
+    "answers": {
+      "memberikan harga paket iklan facebook ads": [
+        {
+          "to": "N10"
+        }
+      ]
+    }
+  },
+  "N10": {
+    "intent": "memberikan harga paket iklan facebook ads",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": "Untuk iklan Facebook Ads, berikut harga paket yang kami tawarkan:\n\n**Paket Mingguan:**\n- Saldo 50rb/hari: Rp 738.500  \n- Saldo 100rb/hari: Rp 1.577.000  \n- Saldo 150rb/hari: Rp 1.765.500  \n- Saldo 200rb/hari: Rp 2.354.000  \n\n**Paket Bulanan:**\n- Saldo 50rb/bulan: Rp 2.465.000  \n- Saldo 100rb/bulan: Rp 4.530.000  \n- Saldo 150rb/bulan: Rp 6.695.000  \n- Saldo 200rb/bulan: Rp 8.960.000  \n\nSetiap paket sudah termasuk konsultasi konten & target pasar,  \nfree konten design dan copy writing, serta laporan iklan setiap minggu.  \n\nKalau ada yang mau ditanyakan lebih lanjut atau langsung mau coba,  \nkasih tahu aja ya! 😊\n\nUntuk harga paket iklan Facebook Ads, berikut detailnya:\n\n**Paket Mingguan:**\n- Saldo 50rb/hari: Rp 738.500  \n- Saldo 100rb/hari: Rp 1.577.000  \n- Saldo 150rb/hari: Rp 1.765.500  \n- Saldo 200rb/hari: Rp 2.354.000  \n\n**Paket Bulanan:**\n- Saldo 50rb/bulan: Rp 2.465.000  \n- Saldo 100rb/bulan: Rp 4.530.000  \n- Saldo 150rb/bulan: Rp 6.695.000  \n- Saldo 200rb/bulan: Rp 8.960.000  \n\nSetiap paket sudah termasuk konsultasi konten & target pasar,  \nfree konten design dan copy writing, serta laporan iklan setiap minggu.  \n\nKalau ada yang mau ditanyakan lebih lanjut atau langsung mau coba,  \nkasih tahu aja ya! 😊"
+      }
+    ],
+    "answers": {
+      "bertanya_info_facebook_ads": [
+        {
+          "to": "N11"
+        }
+      ]
+    }
+  },
+  "N11": {
+    "intent": "bertanya_info_facebook_ads",
+    "role": "user",
+    "texts": [
+      {
+        "chat": "Yang dibutuhkan apa aja untuk video fb ads?"
+      }
+    ],
+    "answers": {
+      "memberikan panduan membuat video facebook ads": [
+        {
+          "to": "N12"
+        }
+      ]
+    }
+  },
+  "N12": {
+    "intent": "memberikan panduan membuat video facebook ads",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": "Untuk membuat video Facebook Ads yang menarik, ada beberapa hal yang perlu diperhatikan:\n\n1. **Konten yang Menarik**: Pastikan video kamu punya konten yang menarik dan relevan dengan audiens target. Ceritakan keunikan produk atau layanan kamu.\n\n2. **Durasi Singkat**: Usahakan video tidak terlalu panjang, idealnya sekitar 15-30 detik agar penonton tidak bosan.\n\n3. **Visual yang Menarik**: Gunakan visual yang menarik dan berkualitas tinggi. Pastikan gambar dan video jelas serta enak dilihat.\n\n4. **Pesan yang Jelas**: Sampaikan pesan dengan jelas dan langsung ke intinya. Jangan lupa sertakan call-to-action (CTA) yang mengarahkan penonton untuk melakukan tindakan tertentu.\n\n5. **Musik dan Suara**: Pilih musik atau suara yang sesuai dengan mood dan tema video. Pastikan tidak mengganggu pesan utama.\n\n6. **Branding**: Sertakan elemen branding seperti logo atau warna khas brand kamu agar mudah dikenali.\n\nKalau butuh bantuan lebih lanjut atau mau diskusi tentang pembuatan video iklan, kasih tahu aja ya! 😊"
+      }
+    ],
+    "answers": {
+      "menghubungi_konten": [
+        {
+          "to": "N13"
+        }
+      ]
+    }
+  },
+  "N13": {
+    "intent": "menghubungi_konten",
+    "role": "user",
+    "texts": [
+      {
+        "chat": "Videonya dari kalian kan ya?"
+      }
+    ],
+    "answers": {
+      "menawarkan paket jasa pembuatan video promosi": [
+        {
+          "to": "N14"
+        }
+      ]
+    }
+  },
+  "N14": {
+    "intent": "menawarkan paket jasa pembuatan video promosi",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": "Betul banget, kami juga menyediakan jasa pembuatan video promosi. \n\nAda beberapa pilihan paket yang bisa kamu pilih:\n\n1. **Pembuatan Video Promosi Animasi + Suara AI**: Rp600.000,-\n2. **Pembuatan Video Promosi Animasi dengan Dubber Talent**: Rp1.000.000,-\n3. **Pembuatan Video Promosi + MODEL**: Rp1.500.000,-\n\nKalau ada yang mau ditanyakan lebih lanjut atau langsung mau coba, kasih tahu aja ya! 😊\n\nSelamat pagi kak, untuk iklan fb ads dalam bentuk video bisa disiapkan dari klien videonya ya kak. Namun kalau ingin dalam bentuk foto nanti bisa kami bantu desainkan"
+      }
+    ],
+    "answers": {
+      "lanjutkan_diskusi": [
+        {
+          "to": "N15"
+        }
+      ]
+    }
+  },
+  "N15": {
+    "intent": "lanjutkan_diskusi",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": " \n\n Halo kak, bagaimana kabarnya? Semoga dalam keadaan sehat selalu dan dilancarkan rezekinya\nTerkait diskusi tentang layanan kami kemarin apakah boleh dilanjutkan kembali kak?"
+      }
+    ],
+    "answers": {
+      "menanyakan rencana iklan sosmed": [
+        {
+          "to": "N16"
+        }
+      ]
+    }
+  },
+  "N16": {
+    "intent": "menanyakan rencana iklan sosmed",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": " \n\n Halo kak,\nMohon maaf sebelumnya, izin menanyakan terkait rencana iklan sosmed ads nya kak. Apakah sudah memutuskan untuk menggunakan jasa kami dalam mempromosikan usahanya kak?\nTerima kasih."
+      }
+    ],
+    "answers": {
+      "memperkenalkan diri dan menawarkan layanan": [
+        {
+          "to": "N17"
+        }
+      ]
+    }
+  },
+  "N17": {
+    "intent": "memperkenalkan diri dan menawarkan layanan",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": " \n\n Hallo Kak ☀️😊\n\nPerkenalkan, Kami dari PT. ASA Inovasi Software (boleh cek kami di https://www.asain.co.id atau instagram @pt.asainovasi ya, Kak\n\nKami ingin menawarkan beberapa layanan kami, seperti:\n✨ Pembuatan website\n✨ Aplikasi atau program custom\n✨ Iklan Google Ads & Sosial Media\n✨ Company profile\n✨ Jasa SEO website\n✨ Maintenance sosial media\nLayanan ini bisa bantu bisnis Kakak terlihat lebih profesional, mudah ditemukan calon pelanggan, dan makin berkembang secara online. Kalau Kakak tertarik, nanti saya bisa kirimkan proposal penawarannya sesuai kebutuhan Kakak ya 🙏😊\n\nKira-kira Kakak berminat nggak nih?"
+      }
+    ],
+    "answers": {
+      "menanyakan_paket_optimasi_web": [
+        {
+          "to": "N18"
+        }
+      ]
+    }
+  },
+  "N18": {
+    "intent": "menanyakan_paket_optimasi_web",
+    "role": "assistant",
+    "texts": [
+      {
+        "chat": " \n\n Halo kak,\nBarangkali ingin dioptimalkan websitenya agar selalu dimaintenance, sehingga rank webiste bisa terus naik hingga ke halaman 1 Google\nUntuk pengoptimalan website ada 2 cara ya kak\n1. SEO (pengoptimalan kata kunci berkala)\n2. Iklan Google (Top up saldo iklan)\n\nDengan dua paket di atas, kami akan memaksimalkan performa website kakak hingga mencapai halaman 1 Google. Ketika website sudah berada di halaman pertama, visibilitas akan meningkat secara signifikan, sehingga jumlah pengunjung pun bertambah secara alami.\nSemakin banyak orang yang melihat website kakak, semakin besar pula peluang mendapatkan prospek dan klien baru. Dengan strategi yang tepat dan konsisten, kami pastikan setiap langkah optimasi membawa hasil nyata bagi pertumbuhan bisnis kakak.\n\nJika ada pertanyaan, boleh disampaikan ya kak terima kasih 😊🙏"
+      }
+    ],
+    "answers": {}
+  }
+}
