@@ -1,79 +1,58 @@
 import json
 import os
 import re
-from groq import Groq
 from datetime import datetime, timedelta
-from dotenv import load_dotenv
 
-# Load env
-load_dotenv()
-
-API_KEY = os.getenv("GROQ_API_KEY")
-
-if not API_KEY:
-    raise ValueError("GROQ_API_KEY tidak ditemukan di file .env")
-
-# --- CONFIGURATION ---
-INPUT_FILE = 'response.json'
-OUTPUT_FILE = 'cleaned_conversations.json'
+# =========================
+# CONFIG
+# =========================
+INPUT_FILE = "response.json"
+OUTPUT_FILE = "cleaned_conversations.json"
 LIMIT_CONVERSATIONS = 10
-MODEL_NAME = "llama-3.1-8b-instant"
-
 FOLLOWUP_HOURS = 20
 
-client = Groq(api_key=API_KEY)
-
 # =========================
-# FUNCTION
+# TEXT FILTERING FUNCTIONS
 # =========================
 
+# Menghapus spasi berlebih
+def clean_text(text):
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+# Menghapus teks yang hanya berisi link
 def is_link_only(text):
     url_pattern = r'^(https?://[^\s]+|www\.[^\s]+)$'
-    return re.match(url_pattern, text.strip().lower()) is not None
+    return re.match(url_pattern, text.lower()) is not None
 
+# Menghapus teks yang hanya berisi emoji
 def is_emoji_only(text):
-    """
-    Return True jika text hanya berisi emoji / simbol / whitespace
-    """
     if not text:
         return True
 
-    cleaned = text.strip()
-
-    # Hanya emoji & simbol unicode umum
     emoji_pattern = re.compile(
         r'^[\U0001F300-\U0001FAFF\U00002700-\U000027BF\U000024C2-\U0001F251\s]+$'
     )
 
-    return bool(emoji_pattern.match(cleaned))
+    return bool(emoji_pattern.match(text))
 
-def clean_batch_messages(messages_list):
-    if not messages_list:
-        return []
+# Menghapus teks yang kurang relevan
+def is_low_information(text):
+    text = text.strip().lower()
 
-    content_to_check = "\n".join([f"- {m}" for m in messages_list])
+    # Teks terlalu pendek <= 1 huruf
+    if len(text) <= 1:
+        return True
 
-    prompt = f"""
-    Tugas: Filter pesan berikut.
-    Pisahkan mana percakapan manusia asli dan mana noise sistem.
-    Kembalikan JSON array boolean.
-    Pesan:
-    {content_to_check}
-    """
+    # Hanya karakter sama berulang (hehehe, wkwkwk, aaa)
+    if len(set(text)) <= 2 and len(text) <= 6:
+        return True
 
-    try:
-        completion = client.chat.completions.create(
-            messages=[{"role": "user", "content": prompt}],
-            model=MODEL_NAME,
-            response_format={"type": "json_object"}
-        )
-        res = json.loads(completion.choices[0].message.content)
-        for key in res:
-            if isinstance(res[key], list):
-                return res[key]
-        return [True] * len(messages_list)
-    except:
-        return [True] * len(messages_list)
+    # Tidak ada huruf atau angka (spasi)
+    if not any(c.isalnum() for c in text):
+        return True
+
+    return False
 
 # =========================
 # MAIN PROCESS
@@ -82,10 +61,10 @@ def clean_batch_messages(messages_list):
 def run_cleaning_process():
 
     if not os.path.exists(INPUT_FILE):
-        print(f"Error: {INPUT_FILE} tidak ditemukan.")
+        print(f"File {INPUT_FILE} tidak ditemukan.")
         return
 
-    with open(INPUT_FILE, 'r', encoding='utf-8') as f:
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     selected_keys = (
@@ -97,62 +76,49 @@ def run_cleaning_process():
     cleaned_result = {}
 
     for conv_id in selected_keys:
-        print(f"Cleaning Conversation: {conv_id}...")
+        print(f"Processing conversation: {conv_id}")
+
         raw_chats = data[conv_id]
+        filtered = []
 
         # =========================
-        # 1️⃣ FILTER AWAL
+        # 1. BASIC FILTERING
         # =========================
-        filtered_locally = []
-        texts_to_ai = []
-
         for chat in raw_chats:
-            role = chat.get('role', '').lower()
-            text = chat.get('chat', '')
 
-            # Membuang role = media
-            if role == 'media':
-                continue
-            
-            # Membuang pesan yang hanya berisi link saja
-            if not text or is_link_only(text):
+            role = chat.get("role", "").lower()
+            text = chat.get("chat", "")
+            created_at = chat.get("created_at")
+
+            if role == "media":
                 continue
 
-            # Membuang pesan kosong
             if not text:
                 continue
 
-            # Membuang pesan yang hanya berisi emoji
+            text = clean_text(text)
+
+            if is_link_only(text):
+                continue
+
             if is_emoji_only(text):
                 continue
 
-            filtered_locally.append(chat)
-            texts_to_ai.append(text)
+            if is_low_information(text):
+                continue
 
-        # =========================
-        # 2️⃣ FILTER AI
-        # =========================
-        current_conv_flow = []
+            filtered.append({
+                "role": role,
+                "text": text,
+                "created_at": created_at
+            })
 
-        if texts_to_ai:
-            valid_map = clean_batch_messages(texts_to_ai)
-
-            for idx, chat_item in enumerate(filtered_locally):
-                is_valid = valid_map[idx] if idx < len(valid_map) else True
-
-                if is_valid:
-                    current_conv_flow.append({
-                        "created_at": chat_item.get('created_at'),
-                        "role": chat_item.get('role').lower(),
-                        "text": chat_item.get('chat').strip()
-                    })
-
-        if not current_conv_flow:
+        if not filtered:
             cleaned_result[conv_id] = []
             continue
 
         # =========================
-        # 3️⃣ MERGE CONSECUTIVE ROLE (WITH TIME CHECK)
+        # 2. MERGE CONSECUTIVE ROLE
         # =========================
         merged_messages = []
 
@@ -160,7 +126,7 @@ def run_cleaning_process():
         buffer_text = []
         buffer_time = None
 
-        for msg in current_conv_flow:
+        for msg in filtered:
 
             role = msg["role"]
             text = msg["text"]
@@ -176,7 +142,6 @@ def run_cleaning_process():
 
             time_diff = time - buffer_time
 
-            # Merge hanya jika role sama dan beda waktu <=20 jam
             if role == buffer_role and time_diff <= timedelta(hours=FOLLOWUP_HOURS):
                 buffer_text.append(text)
             else:
@@ -198,7 +163,7 @@ def run_cleaning_process():
             })
 
         # =========================
-        # 4️⃣ SESSION SPLIT (FOLLOW-UP FIXED)
+        # 3. SESSION SPLIT (>20 JAM)
         # =========================
         sessions = []
         current_session = []
@@ -212,7 +177,7 @@ def run_cleaning_process():
             if role == "user":
                 last_user_time = current_time
 
-            # Jika assistant >20 jam dari user terakhir → session baru
+            # Assistant follow-up lebih dari 20 jam
             if (
                 role in ["assistant", "agent"]
                 and last_user_time is not None
@@ -220,6 +185,7 @@ def run_cleaning_process():
             ):
                 if current_session:
                     sessions.append(current_session)
+
                 current_session = [msg]
                 continue
 
@@ -233,7 +199,7 @@ def run_cleaning_process():
     # =========================
     # SAVE OUTPUT
     # =========================
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(cleaned_result, f, indent=2, ensure_ascii=False)
 
     print("\nSelesai.")
