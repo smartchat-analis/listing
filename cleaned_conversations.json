@@ -2283,5 +2283,1639 @@
         "created_at": "2026-01-29T04:22:45"
       }
     ]
+  ],
+  "11111": [
+    [
+      {
+        "role": "user",
+        "text": "Halo, saya ingin mengetahui lebih lanjut layanan dari asain.co.id",
+        "created_at": "2025-10-16T06:19:17"
+      },
+      {
+        "role": "assistant",
+        "text": "Halo kak! PT. Asa Inovasi Software (Asain) menawarkan berbagai layanan, mulai dari pembuatan website, SEO, hingga layanan digital agency. Tujuan kami adalah membantu bisnis kakak lebih berkembang di dunia digital. Apakah ada layanan tertentu yang kakak ingin ketahui lebih dalam? Kami siap membantu!",
+        "created_at": "2025-10-16T06:19:29"
+      },
+      {
+        "role": "user",
+        "text": "Jasa Pembuatan website",
+        "created_at": "2025-10-16T06:20:05"
+      },
+      {
+        "role": "assistant",
+        "text": "Tentu kak! Untuk memulainya, kami perlu tahu dulu nih, usaha kakak bergerak di bidang apa ya? Ini akan membantu kami dalam memberikan solusi terbaik untuk website kakak.",
+        "created_at": "2025-10-16T06:20:14"
+      },
+      {
+        "role": "user",
+        "text": "Packaging",
+        "created_at": "2025-10-16T06:20:31"
+      },
+      {
+        "role": "assistant",
+        "text": "Wah, menarik sekali usaha di bidang packaging! Kami bisa bantu kakak buatkan website yang menarik dan fungsional sesuai kebutuhan usaha kakak. Apakah ada fitur khusus yang kakak inginkan untuk website packaging ini?",
+        "created_at": "2025-10-16T06:20:55"
+      },
+      {
+        "role": "user",
+        "text": "Fitur standar tentang produk & cara order yg mudah",
+        "created_at": "2025-10-16T06:22:47"
+      },
+      {
+        "role": "assistant",
+        "text": "Oke, kak! Kami bisa membantu membuatkan website dengan fitur standar yang menampilkan produk dan menyediakan cara order yang mudah. Ini akan memudahkan pelanggan kakak untuk melihat produk dan melakukan pembelian langsung. Kalau begitu, kapan kakak berencana untuk mulai proses pembuatannya? Kami siap membantu dari sekarang!",
+        "created_at": "2025-10-16T06:23:07"
+      },
+      {
+        "role": "user",
+        "text": "Boleh tau harganya",
+        "created_at": "2025-10-16T06:23:33"
+      },
+      {
+        "role": "assistant",
+        "text": "Untuk pembuatan website, kami menawarkan beberapa paket, kak: - **Paket Silver**: Rp700.000 dengan DP Rp400.000 - **Paket Gold**: Rp1.600.000 dengan DP Rp700.000 - **Paket Diamond**: Rp2.000.000 dengan DP Rp1.000.000 - **Paket Platinum**: Rp3.000.000 dengan DP Rp1.500.000 Estimasi pengerjaannya sekitar 3-5 hari kerja. Kira-kira paket mana yang paling cocok untuk usaha kakak? Kami siap membantu mewujudkan website impian kakak!",
+        "created_at": "2025-10-16T06:23:51"
+      },
+      {
+        "role": "user",
+        "text": "Beda masing2 paket apa ?",
+        "created_at": "2025-10-16T06:24:24"
+      },
+      {
+        "role": "assistant",
+        "text": "Berikut perbedaan masing-masing paket, kak: - **Paket Silver**: - 4 menu (home, produk, sekilas, kontak) - Domain .web.id - Hosting 500MB - Integrasi sosmed - SSL - Platform WP Premium - **Paket Gold**: - 8 menu - Domain .com - Hosting 3GB - Integrasi Google Map & kontak form - Free banner, logo - View web traffic - SSL, Plugin Premium - **Paket Diamond**: - 10 menu - Domain .com/.co.id - Hosting 3GB - Fitur Gold plus lebih banyak foto - SSL, Plugin Premium - **Paket Platinum**: - 15-20 menu - Domain luas (.com, .co.id, dll.) - Hosting 5GB (VPS) - Free email bisnis - Fitur Diamond plus lebih lengkap Kira-kira mana yang paling sesuai untuk kebutuhan usaha kakak?",
+        "created_at": "2025-10-16T06:24:35"
+      },
+      {
+        "role": "user",
+        "text": "Kantornya dimana?",
+        "created_at": "2025-10-16T06:25:43"
+      },
+      {
+        "role": "assistant",
+        "text": "Kantor pusat kami berlokasi di The Jayan Building lantai 1, Jl. Affandi No. 4 Gejayan Condongcatur, Depok, Sleman, Yogyakarta 55281. Kalau kakak mau mampir atau ada pertanyaan lebih lanjut, kami selalu siap membantu. Apakah ada yang bisa kami bantu lagi, kak? Rencana mau membuat website untuk usaha apa kak?☺️",
+        "created_at": "2025-10-16T06:25:56"
+      },
+      {
+        "role": "user",
+        "text": "Packaging kak Lokasi saya jauh di pekanbaru",
+        "created_at": "2025-10-16T06:31:11"
+      },
+      {
+        "role": "assistant",
+        "text": "packaging seperti ini kka? https://www.linpackaging.com/",
+        "created_at": "2025-10-16T06:31:42"
+      },
+      {
+        "role": "user",
+        "text": "Betul, cuma saya khusus bahan plastik",
+        "created_at": "2025-10-16T06:32:44"
+      },
+      {
+        "role": "assistant",
+        "text": "untuk kantor pusat kami memang ada di yogyakarta ,tapi untuk pelayanan kami sudah menyeluruh seluruh indonesia kak klien kami sudah banyak kak terbesar diseluruh kota di Indonesia termasuk juga di pekanbaru kita kliennya sudah banyak kak☺️ mulai drai UMKM, perusahaan besar , sekolah , instansi , penjualan, dan masih banyak lagi kak ☺️",
+        "created_at": "2025-10-16T06:33:39"
+      },
+      {
+        "role": "user",
+        "text": "Ini paket apa ya ?",
+        "created_at": "2025-10-16T06:34:07"
+      },
+      {
+        "role": "assistant",
+        "text": "seperti ini kak? https://www.weishengplasticindonesia.com/ https://www.blantikaplast.com/",
+        "created_at": "2025-10-16T06:35:58"
+      },
+      {
+        "role": "user",
+        "text": "Lebih tepatnya yg ini",
+        "created_at": "2025-10-16T06:36:38"
+      },
+      {
+        "role": "assistant",
+        "text": "https://www.linpackaging.com/ ini paket platinum kak , ini banyak sub menunya untuk dibagian Menu Layanan kalau kakak mau buat seperti ini https://www.linpackaging.com/ tapi dijadikan paket gold saja bisa kak",
+        "created_at": "2025-10-16T06:37:25"
+      },
+      {
+        "role": "user",
+        "text": "Boleh Biayanya apa saja ya?",
+        "created_at": "2025-10-16T06:39:05"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak ini saya menginformasikan untuk paket gold termasuk paket yang best seller dan sudan standar bisnis kak untuk biayanya ini Rp. 1,6 Jt jt dengan pembayarannya bisa di DP dulu Rp. 700rb sisa pelunasannya jika draft websitenya sudah jadi kak Jika draft website sudah jadi nanti kami kirimkan ke kakak dan kakak bisa mengeceknya Jika ada revisi , kami Free revisi 3x selama 1 bulan kak Pelunasan bisa menggunakan 2 termin / 3 termin Masa aktif website 1 tahun , dimana ditahun berikutnya hanya membayar perpanjangan masa aktif web sebesar Rp. 600rb/tahunnya tidak ada biaya lagi Free garansi maintance selama website aktif Berikut informasi mengenai harga dan fitur yang didapat☺️ *1. *PAKET GOLD (BEST SELLER BUSINESS)* *Rp. 1.600.000 , DP 700k* Fitur lengkap paket gold : - 8 judul menu ( seperti home, produk/layanan, sekilas, kontak) - Ekstensi domain .com - Hosting 3 GB (70 foto kuota pengerjaan awal) - Free wa/telp otomatis - Integrasi sosmed/lapak media (shopee, lazada, dll) - Website bergaransi selamanya - Website SSL (standar industry/protokol keamanan) - Website bebas diakses di seluruh Dunia - Integrasi google maps - Free banner - Free logo - View web traffic - User password dan video panduan edit web - Memakai platform WP Premium - Template premium terbaik dan terpopuler 2024-2025 - Respon server rata-rata 5 mili per detik - Plugin premium - Bandwith unlimited - Biaya perpanjangan 600 ribu/tahun ✨ ```Website sudah aktif untuk 1 tahun dan bisa diperpanjang masa aktifnya``` ✨ ```Sudah terima beres; domain, hosting, desain, isi konten, artikel, kata-kata promosi, website siap tayang di Google dan free garansi maintance oleh Tim kami```",
+        "created_at": "2025-10-16T06:42:09"
+      },
+      {
+        "role": "user",
+        "text": "Bisa dicek untuk perusahaan saya Central Packaging Riau",
+        "created_at": "2025-10-16T06:43:25"
+      },
+      {
+        "role": "assistant",
+        "text": "saya cek dulu kak sudah kak , ini untuk produknya ada apa saja yah kak? ini sudah sayacek untuk ketersediaan domain webnya jika kakak mau buat webiste nanti bisa dengan nama domainnya www.centralpackagingriau.com ini masih tersedia kak nama domainnya",
+        "created_at": "2025-10-16T06:46:10"
+      },
+      {
+        "role": "user",
+        "text": "Seperti ini kira2",
+        "created_at": "2025-10-16T06:50:42"
+      },
+      {
+        "role": "assistant",
+        "text": "ini contoh lain website perusahaan kemasan klien kami kak https://www.nooranijayakemasan.com/ https://www.kotakkulinerindonesia.com/ https://www.asoffset.com/ ohh okke kak sudah ada gambaran bagi saya untuk ☺️ untuk logo usahanya sudah ada atau belum pak? baik kak untuk , ini untuk penawaran saya webnya bagaimana kak?☺️",
+        "created_at": "2025-10-16T06:51:28"
+      },
+      {
+        "role": "user",
+        "text": "Ok boleh",
+        "created_at": "2025-10-16T07:22:32"
+      },
+      {
+        "role": "assistant",
+        "text": "baik pak ini saya izin mengirimkan data yang perlu diisi yah pak☺️ Beberapa data yang perlu isi:* - Nama Perusahaan :* - Logo Perusahaan : sudah ad* - Warna Website*: - Foto & Vidi* : - Alam*t : - Telp*WA : - So*med : - Pr*duk : -*Email : - Nama*website : www.centralpackagingriau.com - Bahasa : bisa dikiirmkan list produknya yah pak",
+        "created_at": "2025-10-16T07:23:09"
+      },
+      {
+        "role": "user",
+        "text": "Mungkin saya lengkapi ya Besok",
+        "created_at": "2025-10-16T07:34:23"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak , ini mau di DP hari ini atau besok kak?",
+        "created_at": "2025-10-16T07:42:40"
+      },
+      {
+        "role": "user",
+        "text": "Besok aja kak",
+        "created_at": "2025-10-16T07:43:10"
+      },
+      {
+        "role": "assistant",
+        "text": "ini saya buatkan invoicenya dulu yah kak , invoicenya atas nama siapa kak?",
+        "created_at": "2025-10-16T07:51:17"
+      },
+      {
+        "role": "user",
+        "text": "An perusahaan aja kak",
+        "created_at": "2025-10-16T07:56:49"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak saya izin mengirimkan invoicenya yah kak",
+        "created_at": "2025-10-16T08:05:12"
+      },
+      {
+        "role": "user",
+        "text": "Baik Noted",
+        "created_at": "2025-10-16T08:05:25"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak saya tunggu untuk konfirmasi dan kelengkapan materi besok yah kak☺️",
+        "created_at": "2025-10-16T08:49:41"
+      },
+      {
+        "role": "user",
+        "text": "Siap",
+        "created_at": "2025-10-16T08:50:29"
+      },
+      {
+        "role": "assistant",
+        "text": "Selamat pagi kak untuk kelengkapan list materi dan payment DP nya apakah sudah bisa dikonfirmasi kak? supaya web segera masuk ke antrian pengerjaan kak☺️",
+        "created_at": "2025-10-17T01:25:57"
+      },
+      {
+        "role": "user",
+        "text": "Videonya sdg kita proses kak",
+        "created_at": "2025-10-17T03:01:05"
+      },
+      {
+        "role": "assistant",
+        "text": "untuk materi lainnya selain videonya apakah sudah dilengkapi kak? untuk video ini nanti bisa menyusul kak",
+        "created_at": "2025-10-17T04:07:56"
+      },
+      {
+        "role": "user",
+        "text": "On progres y",
+        "created_at": "2025-10-17T05:42:33"
+      },
+      {
+        "role": "assistant",
+        "text": "baik kak saya tunggu☺️",
+        "created_at": "2025-10-17T06:38:13"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "selamat pagi kak",
+        "created_at": "2025-10-18T02:40:27"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi untuk materi untuk pembuatan webnya apakah sudah lengkap kak?☺️",
+        "created_at": "2025-11-17T03:34:09"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat sore Untuk pembuatan websitenya apa bisa dilanjutkan kembali kak?😊",
+        "created_at": "2025-11-18T08:04:15"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "*PROMO KHUSUS AKHIR BULAN* Berlaku mulai 25 s/d 30 November 2025 Promo Khusus Website : * Silver ~700~ 650 DP 300 rb * Gold ~1,6 juta~ 1,5 juta DP 600 rb * Platinum ~3 juta~ 2,8 juta DP 1 juta Paket bundling Website + Comprof : * Web Silver + comprof silver = 700 rb + 600 rb = ~1,3 juta~ 1,2 juta * Web Gold + Comprof Gold = 1,6 juta + 1 juta = ~2,6 juta~ 2,4 juta * Web Platinum + Comprof Platinum = 3 juta + 3 juta = ~6 juta~ 5,6 juta Paket Bundling Website + SEO bulan pertama : * Silver + SEO bulan pertama = 700 + 600 = ~1,3 juta~ 1,2 juta * gold + SEO bulan pertama = 1,6 juta + 600 = ~2,2 juta~ 2 juta * platinum + SEO bulan pertama = 3 juta + 600 = ~3,6 juta~ 3,3 juta Paket Bundling Website + Webmail : * Silver + webmail = 700 + 600 = ~1,3 juta~ 1,2 juta * Gold + webmail = 1,6 juta + 600 = ~2,2 juta~ 2 juta",
+        "created_at": "2025-11-24T08:30:32"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "🎉 *PROMO SPESIAL DESEMBER* 🔥 *Diskon besar untuk pembelian website profesional:* ✨ *Paket Gold* 💰 Dari Rp ~1.600.000~ ➜ Rp1.500.000 Hemat Rp100.000! ✨ *Paket Platinum* 💰 Dari Rp ~3.000.000~ ➜ Rp2.800.000 Hemat Rp200.000! *Syarat & Ketentuan:* ✔ Follow Instagram @ebyb.official ✔ Follow TikTok @ebyb.official ⚡ *Kuota terbatas!* Segera amankan promo Anda sebelum kehabisan! 🚀 Halo, selamat pagi untuk kelanjutan pembuatan webnya bagaimana pak? terakhir berkomunikasi katanya vidoenya sedang di proses pak. bisa kita lanjutkan kembali pak?☺️",
+        "created_at": "2025-12-24T01:55:32"
+      }
+    ]
+  ],
+  "8657": [
+    [
+      {
+        "role": "user",
+        "text": "Haloo ka mau tanya untuk pemesanan website",
+        "created_at": "2025-08-28T13:06:50"
+      },
+      {
+        "role": "assistant",
+        "text": "Halo kak! Ada yang bisa kami bantu hari ini? Tentu kak! Untuk bisnisnya bergerak di bidang apa ya? Biar kami bisa merekomendasikan solusi yang paling tepat.",
+        "created_at": "2025-08-28T13:07:01"
+      },
+      {
+        "role": "user",
+        "text": "fashion ka",
+        "created_at": "2025-08-28T13:08:02"
+      },
+      {
+        "role": "assistant",
+        "text": "Untuk bisnis fashion, kita punya beberapa contoh website yang sudah kami buat, seperti: - [soularaofficial.com](http://soularaofficial.com) - [sukeofficial.com](http://sukeofficial.com) - [ant4management.web.id](http://ant4management.web.id) Kakak ingin website yang seperti apa? Kita bisa bantu sesuaikan desainnya!",
+        "created_at": "2025-08-28T13:08:31"
+      },
+      {
+        "role": "user",
+        "text": "produknya kaya gini sih ka",
+        "created_at": "2025-08-28T13:11:47"
+      },
+      {
+        "role": "assistant",
+        "text": "Oke kak, terima kasih sudah berbagi! Nama usahanya apa, kak? Supaya kami bisa catat dan bantu lebih lanjut. Kalau boleh tahu, nama usahanya apa, kak? Supaya kami bisa catat dan bantu lebih lanjut. Oh iya baik, Farhanas ya kak. Kami bisa bantu buatkan website yang mendukung bisnis kakak! Kalau sudah siap, kita bisa mulai diskusikan langkah berikutnya.",
+        "created_at": "2025-08-28T13:11:58"
+      },
+      {
+        "role": "user",
+        "text": "sebelum diskusi pricelistnya ada ga ya ka? sebenernya tadi niatnya cuman bikin microsite 1 aja untuk landing page iklan",
+        "created_at": "2025-08-28T13:14:05"
+      },
+      {
+        "role": "assistant",
+        "text": "Untuk pembuatan microsite sebagai landing page iklan, bisa menggunakan paket website kami: - **Paket Silver**: Rp700.000 dengan DP Rp400.000 - **Paket Gold**: Rp1.600.000 dengan DP Rp700.000 - **Paket Diamond**: Rp2.000.000 dengan DP Rp1.000.000 - **Paket Platinum**: Rp3.000.000 dengan DP Rp1.500.000 Pengerjaannya sekitar 3-5 hari kerja. Kalau kakak tertarik, kita bisa lanjut diskusikan lebih detil sesuai dengan kebutuhan kakak. Jadi, kalau kakak ingin membuat microsite sebagai landing page iklan, bisa pilih dari: - **Paket Silver**: Rp700.000 dengan DP Rp400.000 - **Paket Gold**: Rp1.600.000 dengan DP Rp700.000 - **Paket Diamond**: Rp2.000.000 dengan DP Rp1.000.000 - **Paket Platinum**: Rp3.000.000 dengan DP Rp1.500.000 Estimasi pengerjaan sekitar 3-5 hari kerja. Kalau kakak sudah siap, kita bisa langsung mulai diskusi untuk langkah berikutnya!",
+        "created_at": "2025-08-28T13:15:10"
+      },
+      {
+        "role": "user",
+        "text": "itu udah include pembelian domain sama hosting kah? boleh minta contohnya untuk setiap paket?",
+        "created_at": "2025-08-28T13:15:53"
+      },
+      {
+        "role": "assistant",
+        "text": "Berikut contoh rincian setiap paket yang bisa kakak pilih: - **Paket Silver**: 4 judul menu (home, produk, sekilas, kontak), domain web.id, hosting 500mb. Ada integrasi sosmed, free WA/telp otomatis, dan website bergaransi selamanya. - **Paket Gold**: 8 judul menu, domain COM, hosting 3GB. Ada integrasi Google Map, standard kontak form, dan free logo serta banner. Juga bergaransi selamanya. - **Paket Diamond**: 10 judul menu, domain .com/co.id, hosting 3GB. Sama dengan Gold, tapi dengan tambahan menu dan lebih banyak foto. - **Paket Platinum**: 15-20 menu, domain fleksibel, hosting 5GB pada VPS. Termasuk 1 email bisnis, full support 24 jam, dan banyak fitur premium lainnya. Kalau ada yang menarik, kakak bisa tentukan pilihan, dan kita bisa lanjutkan! Berikut beberapa contoh website paket Silver yang bisa kakak lihat: - [lawfirmjakarta.web.id](http://lawfirmjakarta.web.id) - [lawofficekhp.web.id](http://lawofficekhp.web.id) - [samiratravelumrohdanhaji.web.id](http://samiratravelumrohdanhaji.web.id) - [lomboksenjatravel.web.id](http://lomboksenjatravel.web.id) - [promotoyotajogja.web.id](http://promotoyotajogja.web.id) Desain dan konten bisa disesuaikan dengan kebutuhan kakak, ya!",
+        "created_at": "2025-08-28T13:16:38"
+      },
+      {
+        "role": "user",
+        "text": "Okay, tak check dulu ya ka",
+        "created_at": "2025-08-28T13:17:39"
+      },
+      {
+        "role": "assistant",
+        "text": "Siap kak! Kalau ada pertanyaan lagi atau kakak sudah siap lanjut, kami siap membantu. 😊",
+        "created_at": "2025-08-28T13:18:07"
+      },
+      {
+        "role": "user",
+        "text": "Kalau silve, ini produknya sampai bisa diarahkan ke whatsapp kah?",
+        "created_at": "2025-08-28T13:18:43"
+      },
+      {
+        "role": "assistant",
+        "text": "Betul kak! Paket Silver sudah termasuk fitur **Free WA/telp otomatis**, jadi produk atau layanan di website bisa langsung diarahkan ke WhatsApp kakak. Jika ada hal lain yang ingin didiskusikan, kami siap membantu! 😊",
+        "created_at": "2025-08-28T13:19:03"
+      },
+      {
+        "role": "user",
+        "text": "kalau yang kaya gini gimana ka",
+        "created_at": "2025-08-28T13:19:35"
+      },
+      {
+        "role": "assistant",
+        "text": "Kalau website yang seperti [ranti.co.id/products](https://ranti.co.id/products) yang memiliki fitur lebih kompleks dan mendalam, memungkinkan kakak mempertimbangkan paket mulai dari **Gold** atau bahkan **Platinum**. Paket ini sudah mendukung lebih banyak fitur seperti integrasi media sosial, Google Maps, form kontak standar, dan template premium. Jika kakak ingin mendiskusikan lebih lanjut atau ada kebutuhan tertentu, kami bisa membantu menjelaskan lebih detil. Kalau website yang seperti [ranti.co.id/products](https://ranti.co.id/products), modelnya lebih cocok menggunakan paket Gold atau Platinum. Paket ini sudah termasuk fitur tambahan seperti integrasi media sosial, Google Maps, template dan plugin premium, dan lebih banyak pilihan menu. Jika kakak ada kebutuhan spesifik, kita bisa sesuaikan dan diskusikan fitur-fitur yang diinginkan lebih lanjut! 😊",
+        "created_at": "2025-08-28T13:19:57"
+      },
+      {
+        "role": "user",
+        "text": "itu kan di ranti bisa pembelian sebagai \"guest\" ya itu masuk kebutuhan spesifik ya",
+        "created_at": "2025-08-28T13:21:31"
+      },
+      {
+        "role": "assistant",
+        "text": "Betul, fitur seperti \"guest checkout\" atau pembelian tanpa registrasi memang termasuk kebutuhan spesifik. Saat ini, paket kami fokus pada template dan fitur yang sudah disebutkan, seperti integrasi media sosial dan platform WP Premium. Untuk kebutuhan seperti \"guest checkout\", kita bisa diskusikan lebih lanjut karena mungkin memerlukan penyesuaian khusus. Kalau kakak tertarik, kita bisa lanjut untuk mematangkan bagaimana fitur ini bisa diimplementasikan sesuai kebutuhan bisnis kakak! 😊",
+        "created_at": "2025-08-28T13:22:11"
+      },
+      {
+        "role": "user",
+        "text": "okay ka, ini perlu di infoin ke bosnya dulu sih, paling nanti aku hubungin lagi maaf ya tanya2 dulu",
+        "created_at": "2025-08-28T13:23:32"
+      },
+      {
+        "role": "assistant",
+        "text": "Ini di kami masuknya website platinum + payment gateway Pak 5.5jt Contoh yang kami buat : www.umamascarves.co.id",
+        "created_at": "2025-08-28T13:27:08"
+      },
+      {
+        "role": "user",
+        "text": "Okay ka noted yang ini untuk client pakaian ada kah ka?",
+        "created_at": "2025-08-28T13:28:50"
+      },
+      {
+        "role": "assistant",
+        "text": "Untuk website di bidang fashion : www.benikmami.com www.byedek.com www.karimake.id Fashion Muslim : - https://www.byedek.com/ - https://www.botana.web.id/ - https://www.nurasna.com/ - https://www.afadahijab.com/ - www.jizeeclothing.com Fashion : - https://www.soularaofficial.com/ - https://www.sukeofficial.com/ - https://www.novagaofficial.com/ - https://www.basmabasic.com/ Maaf yang karimake.id sudah tidak aktif websitenya belum di perpanjang domain hostingnya Pak",
+        "created_at": "2025-08-28T13:35:58"
+      },
+      {
+        "role": "user",
+        "text": "okay siap ka",
+        "created_at": "2025-08-28T13:40:56"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi Pak, semoga sehat selalu dan di lancarkan segala aktivitanya ya Pak 😊 izin konfirmasi kembali terkait rencana pembuatan website apakah mau dibantu proses hari ini Pak? 😊 🙏",
+        "created_at": "2025-09-01T01:18:54"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi Pak Donny, semoga sehat selalu dan di lancarkan segala aktivitasnya ya Pak 😊 izin konfirmasi kembali terkait rencana pembuatan website apakah mau dibantu proses hari ini Pak?",
+        "created_at": "2025-09-08T03:00:30"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "🎉✨ Promo Spesial Akhir Bulan September! ✨🎉 Nikmati kesempatan terbatas dengan Promo Edisi Akhir Bulan dari PT ASAIN (Asa Inovasi Software) KHUSUS WEBSITE ! Hanya berlaku AKHIR BULAN INI , jadi jangan lewatkan! 1️⃣Paket Silver: Rp 700.000,- * Hanya Rp 650.000,- * Domain web.id * Hosting 500MB * Integrasi sosmed, video panduan, dan masih banyak lagi! 2️⃣Paket Gold: Rp 1.600.000,- - Hanya Rp 1.500.000,- - Domain .com - Hosting 3GB - Integrasi sosmed, video panduan, dan masih banyak lagi! 3️⃣ Paket Platinum: Rp 3.000.000,- - Hanya Rp 2.800.000,- - Pilih domain sesuai keinginanmu (.com, .id, .co.id, .asia, .xyz) - Hosting 5GB - Free 1 email bisnis - Beragam fitur premium lainnya! Manfaatkan promo ini segera dan dapatkan website impianmu dengan harga yang super spesial! Hubungi kami sekarang juga!",
+        "created_at": "2025-09-27T01:57:26"
+      }
+    ]
+  ],
+  "9794": [
+    [
+      {
+        "role": "user",
+        "text": "Halo, saya mendapatkan nomor WA ini dari Jasa Website Jakarta.",
+        "created_at": "2025-09-20T04:33:29"
+      },
+      {
+        "role": "assistant",
+        "text": "Halo kak! Senang bisa berhubungan dengan kakak. Kami dari tim PT. Asa Inovasi Software (Asain). Ada yang bisa kami bantu terkait jasa pembuatan website, SEO, atau layanan digital agency lainnya? Selamat siang kak Ada yang bisa kami bantu kak?",
+        "created_at": "2025-09-20T04:33:39"
+      },
+      {
+        "role": "user",
+        "text": "Mw tny iklan fb dan ig bs?",
+        "created_at": "2025-09-20T04:42:08"
+      },
+      {
+        "role": "assistant",
+        "text": "Bisa kak, untuk usahanya bergerak dibidang apa kak? Iya kak itu iklan instagram ads 1. A. *Instagram/Facebook Business Ads* Rp. 738.500,- • Konsultasi Konten & Target Pasar • Free konten design dan copy writing • 7 hari tayang atau jangkauan 2.000 – 4.000 • Saldo Ig/FB Ads (350rb) • Saldo harian (50rb) • Biaya pajak 11% (38.500) • Fee (150rb) • Akun register + setting (200rb) • Perpanjangan 500 rb/ minggu • Laporan iklan setiap minggu B. . Paket instagram/Facebook Ads 30hari Rp. 2.520.000,- • Konsultasi Konten & Target Pasar • Free konten design dan copy writing • 30 hari tayang atau jangkauan 8.000 – 12.000 • Saldo Ig/FB Ads (1,5jt) • Saldo harian (50rb) • Biaya pajak 11% (220.000) • Fee (500rb) • Akun register + setting (300rb) • Perpanjangan 2.165.000/bulan • Laporan iklan setiap minggu 2. *Instagram/Facebook Bussiness Ads* Rp. 1.577.000,- • Konsultasi Konten & Target Pasar • Free konten design dan copy writing • 7 hari tayang atau jangkauan 4.000 – 8.000 • Saldo Ig/FB Ads (700rb) • Saldo harian (100rb) • Biaya pajak 11% (77rb) • Fee (500rb) • Akun register + setting (300rb) • Perpanjangan 1jt/ minggu • Laporan iklan setiap minggu Ini saya kirimkan juga untuk detail biayanya ya kak",
+        "created_at": "2025-09-20T04:49:15"
+      },
+      {
+        "role": "user",
+        "text": "Ini sy dpt akun baru, username dan password nya?",
+        "created_at": "2025-09-20T05:25:39"
+      },
+      {
+        "role": "assistant",
+        "text": "Belum termasuk akunnya kak, kalau akunnya menggunakan akun perusahaan kami",
+        "created_at": "2025-09-20T05:26:23"
+      },
+      {
+        "role": "user",
+        "text": "Lalu utk paket pertama yg perpanjang 500rb/minggu itu. Utk ads nya saja ya?",
+        "created_at": "2025-09-20T05:26:39"
+      },
+      {
+        "role": "assistant",
+        "text": "Betul kak, untuk iklan ads saja",
+        "created_at": "2025-09-20T05:27:04"
+      },
+      {
+        "role": "user",
+        "text": "Kalo gitu ibarat kaya saya cuma sewa akun aja ya?",
+        "created_at": "2025-09-20T05:27:21"
+      },
+      {
+        "role": "assistant",
+        "text": "Iya betul kak, nanti dari pihak kami mengirimkan laporan iklannya kak",
+        "created_at": "2025-09-20T05:27:45"
+      },
+      {
+        "role": "user",
+        "text": "Klo 500rb per minggu itu ads nya jd 500rb? Atau 500rb utk biaya lainnya jg",
+        "created_at": "2025-09-20T05:39:43"
+      },
+      {
+        "role": "assistant",
+        "text": "Untuk biaya diawal 738.500 kak, itu sudah Terima beres termasuk desain konten dan juga sudah termasuk iklannya tayang, nantinya untuk minggu berikutnya 500rb biaya perpanjangan iklannya",
+        "created_at": "2025-09-20T05:57:03"
+      },
+      {
+        "role": "user",
+        "text": "Misal sy bayar 738.500 trus minggu kedua ga perpanjang, lalu baru perpanjang minggu ketiga nya itu bs?",
+        "created_at": "2025-09-20T06:08:53"
+      },
+      {
+        "role": "assistant",
+        "text": "Bisa kak, biayanya tetap sama seperti biaya perpanjangan",
+        "created_at": "2025-09-20T06:11:18"
+      },
+      {
+        "role": "user",
+        "text": "Ooo jd buat sekali saja ya yg 738.500?",
+        "created_at": "2025-09-20T06:12:14"
+      },
+      {
+        "role": "assistant",
+        "text": "Iya betul kak",
+        "created_at": "2025-09-20T06:12:26"
+      },
+      {
+        "role": "user",
+        "text": "Sy kan dealer truk baru merk Hino.. Kmrn sy ud bikin web sama ASA jg.. Lebih bnyk tarikan customer dr web atau iklan fb ya?",
+        "created_at": "2025-09-20T06:14:09"
+      },
+      {
+        "role": "assistant",
+        "text": "Oh iya baik bisa kak, nanti website bisa dicantumkan juga kak kalau untuk iklan ini lebih bagus ke iklan sosmed kak",
+        "created_at": "2025-09-20T06:14:37"
+      },
+      {
+        "role": "user",
+        "text": "Ooo jd lbh bagus iklan facebook ketimbang fb ya?",
+        "created_at": "2025-09-20T06:15:33"
+      },
+      {
+        "role": "assistant",
+        "text": "iya kak, lebih bagus iklan facebook ads kak",
+        "created_at": "2025-09-20T06:16:10"
+      },
+      {
+        "role": "user",
+        "text": "Kalo facebook itu nnt nyambung ke IG jg ga ya?",
+        "created_at": "2025-09-20T06:16:35"
+      },
+      {
+        "role": "assistant",
+        "text": "kalau iklan hanya pilih salah satu kak, bisa iklan di ig ataupun di fb kak",
+        "created_at": "2025-09-20T06:17:02"
+      },
+      {
+        "role": "user",
+        "text": "IG sama FB itu lbh rame mana?",
+        "created_at": "2025-09-20T06:17:31"
+      },
+      {
+        "role": "assistant",
+        "text": "kalau untuk penjualan itu kebanyakan lebih bagus facebook kak",
+        "created_at": "2025-09-20T06:19:20"
+      },
+      {
+        "role": "user",
+        "text": "Sy siapin dana dl ya Kebutuhan nya apa aja ?",
+        "created_at": "2025-09-20T06:19:53"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, kami tunggu info lanjutannya ya kak untuk yang dipersiapkan simple kak, seperti target kota, gambar dan kontak yang akan terhubung",
+        "created_at": "2025-09-20T06:20:12"
+      },
+      {
+        "role": "user",
+        "text": "Kalo gambar itu bukan sdh ada desain?",
+        "created_at": "2025-09-20T06:21:11"
+      },
+      {
+        "role": "assistant",
+        "text": "iya kak, hanya gambar mentahannya kak, nanti tim kami yang desain Baik kak",
+        "created_at": "2025-09-20T06:21:32"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi untuk terkait rencana iklannya bagaimana kak?",
+        "created_at": "2025-09-22T03:36:54"
+      },
+      {
+        "role": "user",
+        "text": "Nnt sy kabari ya.. Lg sy siapkan dana dl",
+        "created_at": "2025-09-22T04:35:04"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak",
+        "created_at": "2025-09-22T04:35:19"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi Mau mengonfirmasi kembali untuk terkait rencana iklannya bagaimana kak?",
+        "created_at": "2025-09-29T01:09:07"
+      },
+      {
+        "role": "user",
+        "text": "Blm dl ya kak",
+        "created_at": "2025-09-29T01:48:00"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat siang terkait dengan pembahasan tempo hari apakah bisa dilanjutkan kembali kak?",
+        "created_at": "2025-10-07T06:46:54"
+      }
+    ]
+  ],
+  "10546": [
+    [
+      {
+        "role": "assistant",
+        "text": "Hai kak! Ada yang bisa kami bantu dari PT. Asa Inovasi Software (Asain)? Kami ahli dalam pembuatan website, SEO, dan digital agency. Ada yang mau kakak diskusikan atau butuhkan terkait layanan kami? 😊",
+        "created_at": "2025-10-05T05:25:51"
+      },
+      {
+        "role": "user",
+        "text": "Saya ingin menanyakan jasa beriklan",
+        "created_at": "2025-10-05T05:26:50"
+      },
+      {
+        "role": "assistant",
+        "text": "rencana mau membuat website, iklan, SEO, atau produk digital lainnya kak? rencananya mau iklan untuk usaha apa kak?",
+        "created_at": "2025-10-05T05:26:51"
+      },
+      {
+        "role": "user",
+        "text": "Saya punya google map Iklan penginapan",
+        "created_at": "2025-10-05T05:27:34"
+      },
+      {
+        "role": "assistant",
+        "text": "berarti mau iklan di google ya kak? sebelumnya sudah ada websitenya kak?",
+        "created_at": "2025-10-05T05:28:35"
+      },
+      {
+        "role": "user",
+        "text": "Dulu ada tapi sekarang sudah ga punya website",
+        "created_at": "2025-10-05T05:29:15"
+      },
+      {
+        "role": "assistant",
+        "text": "berarti mau iklan di sosmed saja kak? kami ada layanan iklan Facebook atau Instagram untuk target iklannya mau di kota mana kak?",
+        "created_at": "2025-10-05T05:29:49"
+      },
+      {
+        "role": "user",
+        "text": "Kalau google maf gimana ya Saya punya google map",
+        "created_at": "2025-10-05T05:30:23"
+      },
+      {
+        "role": "assistant",
+        "text": "kalau google maps wajib punya web dulu kak. nanti kalau sudah ada akun google maps (google bisnis) bisa disambungkan iklannya juga. jadi iklan tayang di google dan maps apakah mau sekalian dibantu dibuatkan web oleh kami kak?",
+        "created_at": "2025-10-05T05:31:19"
+      },
+      {
+        "role": "user",
+        "text": "Ini google map saya Kalau iklan di ig gimana",
+        "created_at": "2025-10-05T05:33:57"
+      },
+      {
+        "role": "assistant",
+        "text": "kalau iklan di ig nanti pakai poster/video kak kalau kontennya belum ada, nanti kami bisa buatkan posternya untuk iklan di kami sudah terima beres kak bisa iklan melalui akun kami atau akun pribadi",
+        "created_at": "2025-10-05T05:36:43"
+      },
+      {
+        "role": "user",
+        "text": "Biyayanya berapa",
+        "created_at": "2025-10-05T05:37:46"
+      },
+      {
+        "role": "assistant",
+        "text": "untuk paket iklan di kami tergantung saldo harian yang dipakai kak. ada yang saldo hariannya 50rb dan 100rb dan tayang mingguan dan bulanan. untuk biaya paket di kami sudah include semuanya, jadi dari biaya paket tersebut sudah tidak ada tambahan biaya lagi. dan jika iklannya mau diperpanjang juga lebih murah dari harga awal kak 😊 rencananya mau iklan mingguan atau bulanan kak?",
+        "created_at": "2025-10-05T05:40:01"
+      },
+      {
+        "role": "user",
+        "text": "Belum tau sylagi nyari nyari dulu",
+        "created_at": "2025-10-05T05:41:02"
+      },
+      {
+        "role": "assistant",
+        "text": "barangkali mau coba mingguan dulu kak?",
+        "created_at": "2025-10-05T07:08:23"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat siang terkait rencana iklan, apakah jadi mau diproses kak?",
+        "created_at": "2025-10-09T07:36:07"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi terkait rencana pembuatan sosmed ads, apakah jadi mau diproses di kami kak?",
+        "created_at": "2025-10-18T03:21:51"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, Kak. Izin mengirimkan beberapa testimoni pembayaran dari klien kami sebagai bukti kalau prosesnya aman dan terpercaya. Semoga bisa menambah keyakinan terhadap layanan kami dan bisa menjadi pertimbangan positif. Terima kasih sebelumnya kak😊🙏",
+        "created_at": "2025-10-27T03:55:43"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat sore terkait rencana pembuatan iklan, apakah jadi mau diproses di kami kak?",
+        "created_at": "2025-11-07T08:03:31"
+      },
+      {
+        "role": "user",
+        "text": "Engga kayanya min trimakasih",
+        "created_at": "2025-11-07T08:14:45"
+      }
+    ]
+  ],
+  "8621": [
+    [
+      {
+        "role": "user",
+        "text": "halo",
+        "created_at": "2025-08-28T04:29:18"
+      },
+      {
+        "role": "assistant",
+        "text": "Halo! Aku Nisa dari PT. Eksa Digital Agency (EDA). Ada yang bisa aku bantu? Mau ngobrolin soal website, SEO, atau digital marketing, langsung aja tanya ya! 😊",
+        "created_at": "2025-08-28T04:29:38"
+      },
+      {
+        "role": "user",
+        "text": "bisa pesan buat website?",
+        "created_at": "2025-08-28T04:29:42"
+      },
+      {
+        "role": "assistant",
+        "text": "Bisa banget, Kak. Usahanya bergerak di bidang apa, Kak? Biar kita bisa bantu lebih spesifik. 😊 Halo kak Bisa kak, usahanya bergerak dibidang apa kak?",
+        "created_at": "2025-08-28T04:29:50"
+      },
+      {
+        "role": "user",
+        "text": "organisasi",
+        "created_at": "2025-08-28T04:31:22"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik bisa kak, untuk pembuatan website di kami kebetulan ada beberapa paket kak, ini saya kirimkan detailnya ya kak *1.* WEBSITE SILVER, (700RB) MANIS HEMAT *Contoh website : www.cocoautodetailing.web.id* Fitur : - 4 judul menu (home,produk,sekilas,kontak) - Gratis domain web.id ( bukan com / lainnya) - Hosting 500mb. (30foto kuota pekerjaan kami) - Free Wa / telp Otomatis - Integrasi sosmed - Website Bergaransi selamanya - Website SSL - Memakai platform WP Premium - Template Premium. - Respon Server rata-rata 5 Mili Detik. - Perpanjangan setiap tahun 500rb - Website terbaik bebas diakses di seluruh Dunia. - Website Anda kami jamin bisa dibuka dg kecepatan 5 detik. *2.* WEBSITE GOLD , (BUSINESS BEST SELLER) *Contoh website : www.astomas.com (1.600.000)* Fitur : - 8. judul menu (home,produk,sekilas,kontak) - Domain com - *Hosting 3 GB* (70 foto kuota pekerjaan kami) - Free Wa / telp Otomatis - Integrasi sosmed - Website Bergaransi selamanya - User N video Panduan edit web - Website SSL - Memakai platform WP Premium - Template Premium Terbaik & Terpopuler 2020 - Respon Server rata-rata 5 Mili Detik. - Plugin Premium - Bandwith unlimited - Free Banner - free Logo - View Web Traffic - Integrasi Google Map - Integrasi standart kontak form - User & video Panduan edit web - Website Bergaransi selamanya - Perpanjangan setiap tahun 600rb - Website terbaik bebas diakses di seluruh Dunia. - Website Anda kami jamin bisa dibuka dg kecepatan 5mili detik. **3.* WEBSITE PLATINUM, (MULAI 3JT. EXSKLUSIVE BUSINESS) *Example website : www.duahm.co.id* Feature : - 15-20 judul menu, spt home,profil,dll. - Toko online, Corporate, News,dll. - Domain com,id, Co.id, dll. - *Hosting 5GB* (120foto kuota pekerjaan kami) - Free Wa / telp Otomatis - Integrasi sosmed - Website Bergaransi selamanya - User & video Panduan edit web - Website SSL - Memakai platform WP Premium - Template Premium Terbaik & Terpopuler 2020 - Respon Server rata-rata 5 Mili Detik. - Plugin Premium - Bandwith unlimited - Free slider Banner - free Logo - Free 1 email bisnis - View Web Traffic - Free support system, Chat wa,telp,V-call,. - Integrasi Google Map - Integrasi standart kontak form - Integrasi Lapak Media(Shopee,LAZ,Toped,dll) - User & video Panduan edit web - Website Bergaransi selamanya - Web diperpanjang setiap tahun. - Website terbaik bebas diakses di seluruh Dunia. - Website Anda kami jamin bisa dibuka dg kecepatan 5mili detik. - Biaya Perpanjangan Website 50%",
+        "created_at": "2025-08-28T04:32:09"
+      },
+      {
+        "role": "user",
+        "text": "yangpaket silver aja bisa kak?",
+        "created_at": "2025-08-28T04:34:09"
+      },
+      {
+        "role": "assistant",
+        "text": "Bisa kak mau diproses hari ini kak? supaya saya jelaskan detail prosedurnya",
+        "created_at": "2025-08-28T04:34:20"
+      },
+      {
+        "role": "user",
+        "text": "sbntr ya",
+        "created_at": "2025-08-28T04:35:13"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak",
+        "created_at": "2025-08-28T04:35:25"
+      },
+      {
+        "role": "user",
+        "text": "free domain itu gmn kak",
+        "created_at": "2025-08-28T04:57:02"
+      },
+      {
+        "role": "assistant",
+        "text": "free domain itu, dari detail fasilitas sudah termasuk domain kak",
+        "created_at": "2025-08-28T05:02:19"
+      },
+      {
+        "role": "user",
+        "text": "yang 700itu ya kak coba kirimkan detail yg paket silver halo kak",
+        "created_at": "2025-08-28T05:05:22"
+      },
+      {
+        "role": "assistant",
+        "text": "yang paling atas sudah saya kirimkan detailnya kak Yang biaya 700rb paket silver",
+        "created_at": "2025-08-28T06:05:18"
+      },
+      {
+        "role": "user",
+        "text": "okok kak",
+        "created_at": "2025-08-28T06:05:55"
+      },
+      {
+        "role": "assistant",
+        "text": "23:42:23 khai Bisa banget, Kak. Usahanya bergerak di bidang apa, Kak? Biar kita bisa bantu lebih spesifik. 😊 Aug 28, 11:29 Halo kak Aug 28, 11:30 Bisa kak, usahanya bergerak dibidang apa kak? Aug 28, 11:30 organisasi Aug 28, 11:31 Baik bisa kak, untuk pembuatan website di kami kebetulan ada beberapa paket kak, ini saya kirimkan detailnya ya kak Aug 28, 11:32 *1.* WEBSITE SILVER, (700RB) MANIS HEMAT *Contoh website : www.cocoautodetailing.web.id* Fitur : - 4 judul menu (home,produk,sekilas,kontak) - Gratis domain web.id ( bukan com / lainnya) - Hosting 500mb. (30foto kuota pekerjaan kami) - Free Wa / telp Otomatis - Integrasi sosmed - Website Bergaransi selamanya - Website SSL - Memakai platform WP Premium - Template Premium. - Respon Server rata-rata 5 Mili Detik. - Perpanjangan setiap tahun 500rb - Website terbaik bebas diakses di seluruh Dunia. - Website Anda kami jamin bisa dibuka dg kecepatan 5 detik. Mohon maaf kak, ini saya kirimkan detailnya ulang supaya lebih jelas ya kak *1.* WEBSITE SILVER, (700RB) MANIS HEMAT *Contoh website : www.cocoautodetailing.web.id* Fitur : - 4 judul menu (home,produk,sekilas,kontak) - Gratis domain web.id ( bukan com / lainnya) - Hosting 500mb. (30foto kuota pekerjaan kami) - Free Wa / telp Otomatis - Integrasi sosmed - Website Bergaransi selamanya - Website SSL - Memakai platform WP Premium - Template Premium. - Respon Server rata-rata 5 Mili Detik. - Perpanjangan setiap tahun 500rb - Website terbaik bebas diakses di seluruh Dunia. - Website Anda kami jamin bisa dibuka dg kecepatan 5 detik. dari detail paket yang saya kirimkan, apakah ada yang mau ditanyakan kembali kak?",
+        "created_at": "2025-08-28T06:06:12"
+      },
+      {
+        "role": "user",
+        "text": "cukup kak. lg disukusi dl",
+        "created_at": "2025-08-28T07:58:19"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, kami tunggu info lanjutannya ya kak",
+        "created_at": "2025-08-28T08:06:58"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo kak, mohon maaf terkait diskusi kemarin apakah boleh dilanjutkan kembali kak?",
+        "created_at": "2025-08-30T00:55:42"
+      }
+    ]
+  ],
+  "11876": [
+    [
+      {
+        "role": "user",
+        "text": "selamat sore",
+        "created_at": "2025-10-31T08:16:53"
+      },
+      {
+        "role": "assistant",
+        "text": "Selamat sore kak! Ada yang bisa kami bantu hari ini? 😊",
+        "created_at": "2025-10-31T08:17:03"
+      },
+      {
+        "role": "user",
+        "text": "mau tanya Harga pembuatan CV kak",
+        "created_at": "2025-10-31T08:17:26"
+      },
+      {
+        "role": "assistant",
+        "text": "Pembuatan CV atau company profile kak?",
+        "created_at": "2025-10-31T08:25:49"
+      },
+      {
+        "role": "user",
+        "text": "Oh sory company profile maksudnya",
+        "created_at": "2025-10-31T08:26:56"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak. Kalau boleh tahu untuk usahanya di bidang apa kak?",
+        "created_at": "2025-10-31T08:33:41"
+      },
+      {
+        "role": "user",
+        "text": "Fabrikasi, automation, dan general supplier",
+        "created_at": "2025-10-31T08:34:19"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, untuk pembuatan company profile ada beberpa paket kak. Berikut saya kirimkan detailnya ya kak Silver Company Profile PDF Rp. 600.000, - PDF 6 halaman full design - Revisi 1x revisi - Free Logo - Proses 1-2 hari jadi Gold Company Profile PDF Rp. 1.000.000,- - PDF 10-20 halaman full design - Request warna/Custom - Free Design Kartu Nama (tidak bisa request) - Revisi 2x revisi - Free Logo - Proses 1-2 hari jadi Platinum Company Profile PDF Rp. 3.000.000,- - PDF 30-60 halaman full design - Request warna/Custom - Free Design Kartu Nama (tidak bisa request) - Revisi 2x revisi - Free Logo - Proses 1-2 hari jadi Saya carikan dulu beberapa portofolio Comprof kami yang sesuai dengan bidang usahanya ya kak",
+        "created_at": "2025-10-31T08:36:54"
+      },
+      {
+        "role": "user",
+        "text": "Oke terima kasih",
+        "created_at": "2025-10-31T08:38:32"
+      },
+      {
+        "role": "assistant",
+        "text": "Untuk contoh portofolionya bisa dilihat di link berikut ya kak https://drive.google.com/drive/folders/1kr-edt5c5lrdQW3bIU9G7WVbphCerj45?usp=sharing",
+        "created_at": "2025-10-31T09:02:29"
+      },
+      {
+        "role": "user",
+        "text": "Klo utk isi cv nya dari kita?",
+        "created_at": "2025-10-31T09:04:58"
+      },
+      {
+        "role": "assistant",
+        "text": "Dari kami yang buatkan kak, nanti kakak bisa isi poin-poin materinya saja Rencananya mau ambil paket yang mana kak?",
+        "created_at": "2025-10-31T09:06:42"
+      },
+      {
+        "role": "user",
+        "text": "rencana paket yg gold kak",
+        "created_at": "2025-10-31T09:28:42"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, apakah sudah ada logo atau nanti mau dibuatkan saja oleh tim kami?",
+        "created_at": "2025-10-31T09:29:22"
+      },
+      {
+        "role": "user",
+        "text": "logo sudah ada",
+        "created_at": "2025-10-31T09:29:49"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak nanti bisa dikirimkan saja, apakah berkenan saya kirimkan format poin-poin materi yang perlu dilengkapi kak?",
+        "created_at": "2025-10-31T09:32:10"
+      },
+      {
+        "role": "user",
+        "text": "Oh iya boleh kak",
+        "created_at": "2025-10-31T09:32:28"
+      },
+      {
+        "role": "assistant",
+        "text": "Berikut materi yang perlu dilengkapi ya kak Data Materi Company Profile * Nama Perusahaan : * Logo : (Bisa dibuatkan jika blm ada) * Warna Comprof : * Foto & Vidio : (Bisa dicarikan jika blm ada) * Alamat : * Whatsapp/Telp : * Layanan perusahaan : * Email : * Sosmed : * Bahasa : Kalau boleh tahu, ini company proflenya mau dalam bentuk pdf kan kak bukan company profile dalam bentuk website?",
+        "created_at": "2025-10-31T09:39:59"
+      },
+      {
+        "role": "user",
+        "text": "iya dalam bentuk pdf aja warna comprof bisa disesuaikan sama warna logo gk ya?",
+        "created_at": "2025-10-31T09:43:02"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, untuk kebutuhan di dalam company profilenya kira-kira apa saja kak?",
+        "created_at": "2025-10-31T09:44:30"
+      },
+      {
+        "role": "user",
+        "text": "klo 10 halaman biasanya apa aja ya kak?",
+        "created_at": "2025-10-31T09:52:59"
+      },
+      {
+        "role": "assistant",
+        "text": "Iya bisa kak, nanti dikirimkan saja logonya ya kak Biasanya terdiri dari ini kak - Profil sekelas - Tentang kami - Layanan/produk perusahaan - Portofolio/galery - Klien kami - Kontak Tetapi bisa disesuaikan juga dengan kebutuhan kakak",
+        "created_at": "2025-10-31T10:08:51"
+      },
+      {
+        "role": "user",
+        "text": "oh iya boleh kak, ntr dikirim juga foto2nya Data Materi Company Profile * Nama Perusahaan : PT. SINAR LENTERA DUNIA * Logo : (Sudah Ada) * Warna Comprof : * Foto & Vidio : (Bisa dicarikan jika blm ada) * Alamat : KOMPLEK RUKO KOTAMAS MARINA BLOK AA1 NO 15 Batam - Indonesia * Whatsapp/Telp : *number censored* * Layanan perusahaan : Automation - Fabrikasi - General Supplier - Electrical * Email : sales@sinar-ld.com * Sosmed : * Bahasa : Inggris",
+        "created_at": "2025-10-31T10:10:40"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik terima kasih kak, berarti masih kurang foto-foto dan logonya ya kak",
+        "created_at": "2025-10-31T10:23:30"
+      },
+      {
+        "role": "user",
+        "text": "bayarnya diawal atau gmn kak?",
+        "created_at": "2025-10-31T10:31:00"
+      },
+      {
+        "role": "assistant",
+        "text": "Iya betul kak, kalau untuk company profile sistem pembayarannya lunas di awal ya kak Nanti saya buatkan invoicenya terlebih dahulu kak",
+        "created_at": "2025-10-31T10:32:10"
+      },
+      {
+        "role": "user",
+        "text": "jadi tunggu foto2nya dlu ya sm logo",
+        "created_at": "2025-10-31T10:32:44"
+      },
+      {
+        "role": "assistant",
+        "text": "Ini saya proses invoicenya dulu ya kak sambil menunggu foto-foto dan logo. Invoicenya ingin diproses atas nama siapa kak?",
+        "created_at": "2025-10-31T10:33:32"
+      },
+      {
+        "role": "user",
+        "text": "atas nama Farid aja",
+        "created_at": "2025-10-31T10:34:24"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik, saya proses dulu ya kak",
+        "created_at": "2025-10-31T10:35:16"
+      },
+      {
+        "role": "user",
+        "text": "oke oh iya, untuk struktur organisasi bisa dibuatkan juga kan kak?",
+        "created_at": "2025-10-31T10:35:37"
+      },
+      {
+        "role": "assistant",
+        "text": "Bisa kakk Berikut invoicenya ya kak. Mohon nanti dapat mengirimkan bukti transfer apabila sudah melakukan pembayaran. Terima kasih😊🙏🏻",
+        "created_at": "2025-10-31T10:41:24"
+      },
+      {
+        "role": "user",
+        "text": "oke siap",
+        "created_at": "2025-10-31T10:50:32"
+      },
+      {
+        "role": "assistant",
+        "text": "Selamat pagi kak, untuk company profilenya apakah sudah bisa dilanjutkan prosesnya hari ini kak?",
+        "created_at": "2025-11-01T01:44:44"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi Izin memfollow up kembali kak terkait pembuatan company profilenya kira-kira kapan ingin dilanjutkan prosesnya ya kak?",
+        "created_at": "2025-11-04T02:39:50"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi Mohon maaf izin mengonfirmasi kak terkait rencana pembuatan company profilenya jadi diproses atau tidak ya kak? Untuk foto-foto jika belum ada bisa kami bantu carikan ya kak. Mohon konfirmasinya, terima kasih😊🙏",
+        "created_at": "2025-11-05T03:05:49"
+      },
+      {
+        "role": "user",
+        "text": "Pagi kak Maaf kak slow respon Kak, klo extract dari CV PT yg lain bisa? Format pdf Kebetulan ada PT temen Seperti ini kak",
+        "created_at": "2025-11-05T03:38:51"
+      },
+      {
+        "role": "assistant",
+        "text": "Maaf kak maksudnya materinya diambil dari file ini ya kak?",
+        "created_at": "2025-11-05T03:50:09"
+      },
+      {
+        "role": "user",
+        "text": "Iya Atau bisa cari barang² yg ada disini?",
+        "created_at": "2025-11-05T04:37:45"
+      },
+      {
+        "role": "assistant",
+        "text": "Iya bisa kak, nanti tim kami kerjakan sesuai dengan request kakak Untuk struktur halaman dari company profilenya kurang lebih sama dengan file tersebut atau dari kakak ada tambahan lagi?",
+        "created_at": "2025-11-05T04:40:03"
+      },
+      {
+        "role": "user",
+        "text": "Samain aja kak Paling ada tambahan struktur pengurus",
+        "created_at": "2025-11-05T04:43:22"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak noted, bisa dikirimkan ya kak materi untuk struktur pengurusnya",
+        "created_at": "2025-11-05T04:45:18"
+      },
+      {
+        "role": "user",
+        "text": "Soalnya lg dijalan Sekalian saya tf",
+        "created_at": "2025-11-05T04:46:01"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, mohon nanti dapat mengonfirmasi apabila sudah melakukan pembayaran ya kak",
+        "created_at": "2025-11-05T04:48:11"
+      },
+      {
+        "role": "user",
+        "text": "Oke nnti saya kirim",
+        "created_at": "2025-11-05T04:50:38"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak saya cek dulu, untuk pengirim atas nama siapa kak?",
+        "created_at": "2025-11-05T05:08:41"
+      },
+      {
+        "role": "user",
+        "text": "Farid Nurdiansyah Ini logo PT kami kak",
+        "created_at": "2025-11-05T05:09:05"
+      },
+      {
+        "role": "assistant",
+        "text": "Alhmdulillah untuk pembayaran sudah kami terima. Terima kasih atas kepercayannya kak🙏",
+        "created_at": "2025-11-05T05:12:20"
+      },
+      {
+        "role": "user",
+        "text": "Sama² kak",
+        "created_at": "2025-11-05T05:12:56"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, nanti untuk company profilenya kombinasi warnanya sesuai warna logo ini ya kak? Bisa kak, mau seperti itu saja kak warnanya?",
+        "created_at": "2025-11-05T05:13:07"
+      },
+      {
+        "role": "user",
+        "text": "Iya",
+        "created_at": "2025-11-05T05:30:18"
+      },
+      {
+        "role": "assistant",
+        "text": "Okee kak, jadi untuk materinya masih kurang struktur organisasi saja ya kak",
+        "created_at": "2025-11-05T05:33:45"
+      },
+      {
+        "role": "user",
+        "text": "Iya kak Ntr filenya editable kan kak?",
+        "created_at": "2025-11-05T05:34:04"
+      },
+      {
+        "role": "assistant",
+        "text": "Nanti filenya dalam bentuk file pdf kak, tetapi nanti bisa kami kirimkan file projectnya kak untuk pengeditan mandiri",
+        "created_at": "2025-11-05T06:21:15"
+      },
+      {
+        "role": "user",
+        "text": "Oke kak siap",
+        "created_at": "2025-11-05T06:22:02"
+      },
+      {
+        "role": "assistant",
+        "text": "Untuk materi yang masih kurang kami tunggu ya kak, agar bisa segera diproses Oke baik kak. Untuk materinya saya teruskan ke tim ya kak. Untuk estimasi pengerjaannya 2-3 hari. Nanti saya informasikan kembali saat draftnya sudah jadi ya kak. Terima kasih atas kepercayaannya😊🙏",
+        "created_at": "2025-11-05T06:22:08"
+      },
+      {
+        "role": "user",
+        "text": "Terima kasih",
+        "created_at": "2025-11-05T07:33:15"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Selamat pagi kak. Izin menginformasikan ini untuk company profilenya sudah jadi, silahkan bisa dicek dulu kak. Jika ada revisi bisa disampaikan saja ya kak. Terima kasih😊🙏",
+        "created_at": "2025-11-07T03:44:47"
+      },
+      {
+        "role": "user",
+        "text": "Baik, kami cek dlu ya",
+        "created_at": "2025-11-07T04:06:50"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak",
+        "created_at": "2025-11-07T04:14:38"
+      },
+      {
+        "role": "user",
+        "text": "Sama dikasi garis² turun ya bagian yg kiri",
+        "created_at": "2025-11-10T09:11:55"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, itu saja atau ada lagi kak?",
+        "created_at": "2025-11-10T09:23:57"
+      },
+      {
+        "role": "user",
+        "text": "Itu aja kak",
+        "created_at": "2025-11-10T09:24:21"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, kami sampaikan ke tim dulu ya kak Selamat pagi kak, berikut untuk comprof yang sudah direvisi ya",
+        "created_at": "2025-11-10T09:32:05"
+      },
+      {
+        "role": "user",
+        "text": "Yg production operator typo kyknya kak, disitu diketik prodution",
+        "created_at": "2025-11-11T03:07:57"
+      },
+      {
+        "role": "assistant",
+        "text": "Oh iya baik kak, ini kami perbaiki ya kak Kalau untuk revisi lainnya sudah cukup atau adalagi kak?",
+        "created_at": "2025-11-11T03:11:04"
+      },
+      {
+        "role": "user",
+        "text": "Sudah kak Jadi nnti filenya bisa di edit kan?",
+        "created_at": "2025-11-11T03:13:06"
+      },
+      {
+        "role": "assistant",
+        "text": "Nanti kami kirimkan draft projectnya ya kak. Ini kami perbaiki dulu",
+        "created_at": "2025-11-11T03:20:29"
+      },
+      {
+        "role": "user",
+        "text": "Oke",
+        "created_at": "2025-11-11T05:12:44"
+      },
+      {
+        "role": "assistant",
+        "text": "Berikut file yang sudah direvisi kak Kemudian untuk draft projectnya bisa diakses di link berikut https://drive.google.com/file/d/1UxlQYPGsg68vzgLsNVMj8lm1RWdyIc9y/view?usp=sharing",
+        "created_at": "2025-11-11T07:37:08"
+      },
+      {
+        "role": "user",
+        "text": "Oke kak terima kasih",
+        "created_at": "2025-11-12T03:55:31"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, sama-sama🙏😊",
+        "created_at": "2025-11-12T08:15:35"
+      },
+      {
+        "role": "user",
+        "text": "Siang kak Saya mau buat CP lagi",
+        "created_at": "2026-01-06T05:24:04"
+      }
+    ]
+  ],
+  "10628": [
+    [
+      {
+        "role": "user",
+        "text": "Halo, saya ingin mengetahui lebih lanjut layanan dari asain.co.id",
+        "created_at": "2025-10-06T18:33:34"
+      },
+      {
+        "role": "assistant",
+        "text": "Hai Kak! Kami dari PT. Asa Inovasi Software (Asain) menyediakan layanan pembuatan website, SEO, dan digital agency. Apakah ada salah satu layanan khusus yang Kakak ingin tahu lebih lanjut? Kami siap membantu!",
+        "created_at": "2025-10-06T18:33:43"
+      },
+      {
+        "role": "user",
+        "text": "Berapa biaya pembuatan website kampus dgn domain dan hostingnya. Sekaligus dgn OJS",
+        "created_at": "2025-10-06T18:34:55"
+      },
+      {
+        "role": "assistant",
+        "text": "Untuk pembuatan website kampus lengkap dengan domain, hosting, dan OJS (Open Journal Systems), kami menawarkan beberapa paket: - **Paket Silver**: Rp700.000 (DP Rp400.000) - **Paket Gold**: Rp1.600.000 (DP Rp700.000) - **Paket Diamond**: Rp2.000.000 (DP Rp1.000.000) - **Paket Platinum**: Rp3.000.000 (DP Rp1.500.000) Estimasi pengerjaan adalah 3-5 hari kerja. Apakah ada paket yang kakak minati atau ada hal lain yang ingin kakak diskusikan lebih lanjut?",
+        "created_at": "2025-10-06T18:35:13"
+      },
+      {
+        "role": "user",
+        "text": "Apakah ada contoh design dan fitur website, OJS sesuai paket2 tsb",
+        "created_at": "2025-10-06T18:37:14"
+      },
+      {
+        "role": "assistant",
+        "text": "Berikut adalah rincian fitur untuk setiap paket website yang kami tawarkan: **Paket Silver** (Rp700.000 DP Rp400.000) - 4 judul menu (home, produk, sekilas, kontak) - Domain ekstensi web.id - Hosting 500MB - Integrasi media sosial - SSL dan garansi selamanya **Paket Gold** (Rp1.600.000 DP Rp700.000) - 8 judul menu - Domain ekstensi COM - Hosting 3GB - Google Map dan kontak form terintegrasi - Template & plugin premium, garansi selamanya **Paket Diamond** (Rp2.000.000 DP Rp1.000.000) - 10 judul menu - Domain ekstensi .com/co.id - Hosting 3GB - Termasuk desain logo dan banner, integrasi sosmed **Paket Platinum** (Rp3.000.000 DP Rp1.500.000) - 15-20 judul menu - Domain pilihan luas (com, id, co.id) - Hosting 5GB, VPS hosting - Semua fitur premium termasuk email bisnis Untuk platform OJS, kami sesuaikan dengan paket yang dipilih. Apakah ada fitur yang kakak prioritaskan, atau paket tertentu yang menjadi pilihan kakak sejauh ini?",
+        "created_at": "2025-10-06T18:37:41"
+      },
+      {
+        "role": "user",
+        "text": "Apakah bisa juga buat SIAKAD (Sistem Akademik) dan berapa biayanya",
+        "created_at": "2025-10-06T18:46:23"
+      },
+      {
+        "role": "assistant",
+        "text": "Tentu bisa, Kak! Kami dapat membantu membuat Sistem Akademik (SIAKAD) custom sesuai dengan kebutuhan kampus. Namun, untuk biaya pengerjaan, akan diinformasikan setelah dianalisis oleh tim programmer kami. Silakan dijelaskan lebih lanjut mengenai kebutuhan dan fitur apa saja yang Kakak inginkan dalam SIAKAD tersebut, agar kami bisa memberikan estimasi yang tepat.",
+        "created_at": "2025-10-06T18:46:32"
+      },
+      {
+        "role": "user",
+        "text": "Baik nanti besok kami akan pelajari dulu, apabila sesuai dengan kebutuhan maka kami akan hubungi kembali. Terima kasih.",
+        "created_at": "2025-10-06T18:48:16"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik Kak, kami tunggu kabarnya! Jika nanti Kakak memutuskan untuk melanjutkan, kami akan membutuhkan beberapa materi seperti: - Nama dan logo usaha - Nama dan warna untuk website - Foto dan video yang akan ditampilkan - Alamat, kontak WhatsApp/telepon - Jenis layanan dan referensi website - Email dan wilayah pemasaran - Akun sosial media dan kata kunci - Bahasa yang akan digunakan Kami siap membantu jika ada pertanyaan lebih lanjut. Terima kasih!",
+        "created_at": "2025-10-06T18:48:43"
+      },
+      {
+        "role": "user",
+        "text": "SIAKAD fitur yg dibutuhkan 1. Manajemen Mahasiswa dan Dosen. 2. KRS, KHS, Nilai 3. Jadwal Kuliah 4. Data Alumni 5. Integrasi dgn Neo Feeder. Pembayarannya hanya satu kali saja, sudah tidak berbayar per bulan dan tahunan.",
+        "created_at": "2025-10-06T23:15:58"
+      },
+      {
+        "role": "assistant",
+        "text": "kami sampaika ke tim programer ya pak",
+        "created_at": "2025-10-07T00:37:56"
+      },
+      {
+        "role": "user",
+        "text": "Baik terima kasih Selamat siang, apakah sudah ada rincian biaya pembuatan SIAKAD",
+        "created_at": "2025-10-07T00:40:42"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi barangkali ada yang mau di konsultasikan boleh ya kak",
+        "created_at": "2025-10-10T01:13:47"
+      },
+      {
+        "role": "user",
+        "text": "Selamat pagi, Sudah, terima kasih 🙏🙏",
+        "created_at": "2025-10-10T01:52:09"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "selamat pagi pak, bisa dilanjutkan kembali diskusinya pak?",
+        "created_at": "2025-10-11T00:38:05"
+      },
+      {
+        "role": "user",
+        "text": "Selamat pagi, sudah pak 🙏 Krn kami tunggu brp hari belum direspon, maka kami sudah menggunakan jasa lain tuk pembuatan website dll. Tp nanti kl ada rekan kami yg lain perlu, nanti kami tanyakan ke layanan bapak. Terima kasih 🙏🙏",
+        "created_at": "2025-10-11T01:34:31"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo selamat pagi pak, selamat beraktivitas Mohon maaf sebelumnya, izin menanyakan kembali terkait pembuatan websitenya bagaimana pak apakah sudah bisa diproses? Mohon konfirmasi jadi atau tidaknya ya pak Terima kasih🙏🏻☺️",
+        "created_at": "2025-10-13T00:53:16"
+      },
+      {
+        "role": "user",
+        "text": "Selamat pagi, Mohon maaf TIDAK JADI, Krn kami lama menunggu respon dari pihak PT Asa, sehingga kami sudah menggunakan layanan jasa lainnya. Terima kasih 🙏",
+        "created_at": "2025-10-13T01:59:55"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "selamat pagi pak, semoga hari ini menyenangkan dan segala urusan dilancarkan ya pak bisa dilanjutkan kembali diskusi websitenya pak?",
+        "created_at": "2025-10-14T01:30:52"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih. Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih.",
+        "created_at": "2025-10-15T02:03:51"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih.",
+        "created_at": "2025-10-16T01:15:14"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "FASILITAS WEB Fasilitas website yang bisa didapatkan jika membuat di tempat kami : 1. Free logo 2. Free baner 3. Free artikel original + SEO basic 4. Free support system selama web aktif 5. User password + video panduan pengeditan website 6. Bisa konsultasi kapan saja mulai dari jam 8 pagi sampai jam 4 sore hari kerja 7. Website dibuatkan dulu bayar setelah jadi (dp sebagai tanda jadi) 8. Pengerjaan cepat hasiil berkualitas, 3 sampai 4 hari kerja jadi 9. Kami perusahaan profesional yang terpercaya telah memiliki ribuan klien",
+        "created_at": "2025-10-17T01:59:37"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih.",
+        "created_at": "2025-10-18T00:51:36"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih.",
+        "created_at": "2025-10-20T01:32:38"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih.",
+        "created_at": "2025-10-21T01:57:22"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih.",
+        "created_at": "2025-10-22T02:32:23"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih.",
+        "created_at": "2025-10-25T01:41:45"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih.",
+        "created_at": "2025-10-28T04:10:07"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "🎃✨ PROMO SPESIAL AKHIR BULAN OKTOBER! ✨🎃 Mau punya website profesional tapi harga bersahabat? Saatnya WUJUDKAN SEKARANG dengan promo PT. ASA INOVASI SOFTWARE! 💻 Promo Hanya Berlaku Hingga AKHIR BULAN Ini — Jangan Sampai Ketinggalan! 💎 Paket Silver ~Rp 700.000~ 👉 Hanya Rp 650.000! ✅ Domain .web.id ✅ Hosting 500 MB ✅ Desain responsif dan SEO friendly 🏆 Paket Gold ~Rp 1.600.000~ 👉 Hanya Rp 1.500.000! ✅ Domain .com ✅ Hosting 3GB ✅ Integrasi Sosial Media & Video Panduan 📍 Contoh: www.lengkaplegal.com 🌐 Paket Platinum ~Rp 3.000.000~ 👉 Hanya Rp 2.800.000! ✅ Domain pilihan (.com / .id / .co.id / .asia / .xyz) ✅ Hosting 5GB ✅ Free Email Bisnis & Fitur Premium 📍 Contoh: www.axceleducation.id 🔥 Harga Spesial – Kuota Terbatas! Hubungi kami sekarang untuk dapatkan promo ini: 🌐 www.asain.co.id 📸 IG: @pt.asainovasi",
+        "created_at": "2025-10-31T03:03:39"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih.",
+        "created_at": "2025-11-03T00:58:50"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo Pak, Mohon maaf izin menanyakan kembali, mengenai pembuatan websitenya apakah bisa dilanjutkan diskusinya pak? Terima kasih.",
+        "created_at": "2025-11-05T06:39:31"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo selamat pagi kak Boleh dilanjutkan kembali diskusi pembuatan website tempo hari? Ini saya kirimkan contoh website dari masing-masing paket ya kak Platinum https://www.greenwoodenergy-biomassa.co.id/ https://www.penyalurartdanbabysitter.co.id/ https://www.sedotwctrijaya.com/ Diamond https://www.atweld.co.id/ https://www.jeepwisatamerapiofficial.id/ Gold https://www.berkahbatterybogor.com/ https://www.pusatsewamobilbandung.com/ https://www.damaragapools.com/ Silver https://www.ciptagunapoles.web.id/ https://www.yoshitamaindonesiakreasi.web.id/ https://www.fatoniinterior.web.id/ Boleh tahu sebelumnya kakak usahanya bergerak di bidang apa agar saya carikan contoh yang lain sesuai dengan usaha kakak 😊🙏",
+        "created_at": "2025-11-08T00:57:19"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi pak barangkali ada yang mau di konsultasikan boleh ya kak Terima kasih.",
+        "created_at": "2025-11-14T01:20:17"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo kak, mohon maaf sebelumnya Terkait diskusi pembuatan website tempo hari apakah boleh dilanjutkan kembali?",
+        "created_at": "2025-11-18T03:57:31"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Hallo kakak! Semoga selalu sehat dan sukses 😊 Tahukah Kak, memiliki website membawa banyak manfaat untuk perkembangan usaha? 1. Dengan memiliki website, bisnis kakak akan terlihat lebih profesional 2. Website bisa membantu menarik pelanggan dari luar daerah atau bahkan luar negeri 3. Pelanggan sekarang sering mencari produk lewat google kak, tanpa website maka bisnis kakak bisa tidak terlihat 4. Menjadi tempat promosi secara efektif secara lengkap yang kredibel 5. Mendukung pertumbuhan dan perkembangan brand awareness Yuk, rasakan sendiri manfaatnya dengan memiliki website profesional. Semakin lama menunda, semakin banyak peluang pembeli yang hilang dan beralih ke kompetitor yang lebih profesional kak 😊 Kira kira kapan nih kakak mau mulai membuat website?",
+        "created_at": "2025-12-04T02:51:00"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo kak Bagaimana kabarnya hari ini? Semoga kakak selalu sehat dan dilancarkan rezekinya ya🙏 Mohon maaf saya izin follow up kembali terkait diskusi kita beberapa hari yang lalu mengenai layanan digital kami. Apakah kakak masih berkenan untuk melanjutkan pembahasannya? Kalau ada yang ingin ditanyakan atau didiskusikan lebih lanjut, feel free to discuss ya kak, saya siap bantu kapan saja😊",
+        "created_at": "2025-12-16T08:08:18"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Selamat pagi kak Izin menanyakan terkait keputusan dari diskusi yang telah dilakukan sebelumnya, apakah sudah ada update informasi kak? 😊🙏",
+        "created_at": "2025-12-29T03:16:49"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Selamat Tahun Baru 2026 🎉 Semoga di tahun yang baru ini Bapak/Ibu senantiasa diberikan kesehatan, kelancaran, serta kesuksesan dalam menjalankan bisnis. Kami berharap tahun ini dapat menjadi awal yang baik untuk pertumbuhan dan perkembangan bisnis Bapak/Ibu ke arah yang semakin positif. Jika berkenan, kami ingin menyampaikan bahwa kami siap membantu apabila Bapak/Ibu memiliki rencana untuk membuat atau mengembangkan website bisnis di awal tahun ini, agar dapat menunjang promosi dan profesionalitas usaha. Apabila tertarik, kami dengan senang hati dapat berdiskusi terlebih dahulu mengenai kebutuhan dan konsep yang sesuai dengan bisnis Bapak/Ibu. Terima kasih atas waktu dan perhatiannya. Semoga kita dapat menjalin kerja sama yang baik di tahun ini!😊",
+        "created_at": "2026-01-03T04:22:22"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Selamat pagi kak Izin menanyakan terkait keputusan dari diskusi yang telah dilakukan sebelumnya, apakah sudah ada update informasi kak? 😊🙏",
+        "created_at": "2026-01-15T02:08:45"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Selamat pagi kak Izin menanyakan terkait keputusan dari diskusi yang telah dilakukan sebelumnya, apakah sudah ada update informasi kak? 😊🙏",
+        "created_at": "2026-02-04T03:51:04"
+      }
+    ]
+  ],
+  "11833": [
+    [
+      {
+        "role": "user",
+        "text": "Halo, saya mendapatkan nomor WA ini dari Jasa Website Jakarta.",
+        "created_at": "2025-10-30T12:35:14"
+      },
+      {
+        "role": "assistant",
+        "text": "Halo kak! Wah, senang sekali kakak menghubungi kami di PT. Asa Inovasi Software (Asain). Ada yang bisa kami bantu seputar jasa pembuatan website, SEO, atau layanan digital agency kami?",
+        "created_at": "2025-10-30T12:35:30"
+      },
+      {
+        "role": "user",
+        "text": "Untuk pembuatan aplikasi diharga berapa yah kak",
+        "created_at": "2025-10-30T12:36:47"
+      },
+      {
+        "role": "assistant",
+        "text": "Untuk pembuatan aplikasi, kami perlu mengerti terlebih dahulu keperluan dan fitur-fitur yang kakak butuhkan. Setelah itu, tim programmer kami akan melakukan analisa untuk dapat memberikan estimasi harga yang tepat. Bisa kakak jelaskan detail kebutuhannya? Kami siap membantu!",
+        "created_at": "2025-10-30T12:37:01"
+      },
+      {
+        "role": "user",
+        "text": "Saya berencana ingin membuat aplikasi untuk pelayanan jasa online kerja serabutan",
+        "created_at": "2025-10-30T12:37:25"
+      },
+      {
+        "role": "assistant",
+        "text": "Baik kak, terima kasih atas informasinya. Untuk aplikasi pelayanan jasa online kerja serabutan, bisa dijelaskan lebih detail fitur-fitur apa saja yang kakak perlukan? Misalnya, apakah memerlukan sistem pembayaran, penilaian layanan, fitur chatting, atau fitur lain? Setelah mendapatkan informasi tersebut, tim programmer kami dapat melakukan analisis dan memberikan estimasi harga yang lebih detail.",
+        "created_at": "2025-10-30T12:37:39"
+      },
+      {
+        "role": "user",
+        "text": "Baik kak, untuk fitur-fiturnya akan saya diskusikan dengan tim.",
+        "created_at": "2025-10-30T12:38:56"
+      },
+      {
+        "role": "assistant",
+        "text": "Siap kak! Kami tunggu informasinya lebih lanjut dari kakak. Jangan ragu untuk kembali menghubungi kami jika sudah ada detail kebutuhan fiturnya, agar kami bisa segera membantu kakak mendapatkan estimasi harga dari tim programmer. Semoga diskusinya lancar!",
+        "created_at": "2025-10-30T12:39:10"
+      },
+      {
+        "role": "user",
+        "text": "Terimakasih",
+        "created_at": "2025-10-30T12:39:38"
+      },
+      {
+        "role": "assistant",
+        "text": "Sama-sama kak! Jika ada yang perlu didiskusikan lebih lanjut, jangan ragu untuk menghubungi kami. Kami siap membantu kapan saja kak butuhkan. Ini websitenya mau dionline kan untuk pendaftraan pekerja kak?",
+        "created_at": "2025-10-30T12:39:48"
+      },
+      {
+        "role": "user",
+        "text": "Betul sekali Aplikasi kak",
+        "created_at": "2025-10-30T12:50:04"
+      },
+      {
+        "role": "assistant",
+        "text": "Oke kak bisa Kami minta detail konsep aplikasinya spt apa ya kak selamat pagi kak selamat beraktivitas 😊 bisa kita lnjut diskusi kembali mengenai kebutuhan aplikasinya?",
+        "created_at": "2025-10-30T13:24:24"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat siang apakah sudah bisa kita lanjutkan diskusi kembali untuk aplikasinya kak? apa sudah ada info untuk detail konsepnya ?",
+        "created_at": "2025-11-01T06:31:59"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi bisa kita lanjutkan diskusi kembali untuk kebutuhan pembuatan aplikasinya kak?",
+        "created_at": "2025-11-07T02:56:07"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat siang bisa kita lanjutkan diskusi kembali untuk kebutuhan pembuatan aplikasinya ?",
+        "created_at": "2025-11-10T04:00:48"
+      }
+    ]
+  ],
+  "10746": [
+    [
+      {
+        "role": "user",
+        "text": "Halo, saya mendapatkan nomor WA ini dari Jasa Website Banten.",
+        "created_at": "2025-10-09T03:28:13"
+      },
+      {
+        "role": "assistant",
+        "text": "Halo kak! Senang sekali bisa dapat pesan dari kakak. Ada yang bisa kami bantu terkait jasa pembuatan website, SEO, atau digital agency? Kami dari PT. Asa Inovasi Software (Asain) siap membantu kebutuhan kakak. 😊 rencana mau membuat website, iklan, SEO, atau produk digital lainnya kak?",
+        "created_at": "2025-10-09T03:28:24"
+      },
+      {
+        "role": "user",
+        "text": "Apakah bisa buat tamplate wordpres",
+        "created_at": "2025-10-09T03:28:58"
+      },
+      {
+        "role": "assistant",
+        "text": "bisa kak 😊 rencananya ingin membuat web wordpress untuk usaha/jasa di bidang apa kak?",
+        "created_at": "2025-10-09T03:29:10"
+      },
+      {
+        "role": "user",
+        "text": "Apakah bisa bantu buatkan tamplate wordpress",
+        "created_at": "2025-10-09T03:29:31"
+      },
+      {
+        "role": "assistant",
+        "text": "bisa kak, apakah sudah ada contoh yang mau dijadikan referensi atau mau kami kirimkan beberapa contoh buatan kami?",
+        "created_at": "2025-10-09T03:30:09"
+      },
+      {
+        "role": "user",
+        "text": "Saya ingin tamplate wordpress seperti web ini https://www.harianterbit.com/",
+        "created_at": "2025-10-09T03:31:28"
+      },
+      {
+        "role": "assistant",
+        "text": "baik, bisa kami bantu kak",
+        "created_at": "2025-10-09T03:33:11"
+      },
+      {
+        "role": "user",
+        "text": "Berapa kak, untuk pembuatan tamplate wordpres mirip web berita tersebut di atas",
+        "created_at": "2025-10-09T03:34:20"
+      },
+      {
+        "role": "assistant",
+        "text": "untuk jumlah menu topik yang mau dicantumkan di webnya sama seperti di web referensi kak? karena nanti menentukan paket web yang digunakan",
+        "created_at": "2025-10-09T03:35:11"
+      },
+      {
+        "role": "user",
+        "text": "Iya, mirip 100 persen Kira2 berapa?",
+        "created_at": "2025-10-09T03:35:45"
+      },
+      {
+        "role": "assistant",
+        "text": "untuk webnya mau ada fitur loginnya atau tidak kak?",
+        "created_at": "2025-10-09T03:36:31"
+      },
+      {
+        "role": "user",
+        "text": "Iya ada",
+        "created_at": "2025-10-09T03:36:57"
+      },
+      {
+        "role": "assistant",
+        "text": "kalau mau buat web ini tanpa ada fitur login itu bisa pakai web wordpress kak, tapi kalau ada fitur login itu masuknya web program berarti web program ya kak, bukan web wordpress",
+        "created_at": "2025-10-09T03:37:00"
+      },
+      {
+        "role": "user",
+        "text": "Web wordpress",
+        "created_at": "2025-10-09T03:37:36"
+      },
+      {
+        "role": "assistant",
+        "text": "kalau web wordpress tidak ada fitur loginnya kak",
+        "created_at": "2025-10-09T03:37:54"
+      },
+      {
+        "role": "user",
+        "text": "Saya udah punya hosting dan domainnya. Tapi tamplatenya pengen mirip itu. Nanti kalo dah jadi, tinggal saya instal aja Oh iya kali ya",
+        "created_at": "2025-10-09T03:37:59"
+      },
+      {
+        "role": "assistant",
+        "text": "bisa dibuatkan versi wordpress dengan tampilan sama persis tapi tidak ada fitur login bisa kami bantu kak",
+        "created_at": "2025-10-09T03:38:25"
+      },
+      {
+        "role": "user",
+        "text": "Saya masih belum paham dengan fitur login Nanti masuk admin, kontributor, atau editor kalo GK ada fitur login gmn?",
+        "created_at": "2025-10-09T03:39:11"
+      },
+      {
+        "role": "assistant",
+        "text": "jika sudah ada hosting dan domain, tinggal templatenya maka bisa ambil layanan only design dengan fitur paket platinum. detailnya sebagai berikut: Only desain sesuai dengan fasilitas paket platinum Rp6.000.000,00 - Domain dari klien - Hosting dari klien - Template dari kita - Fasilitas menyesuaikan website paket platinum Fitur Paket Platinum - Free Wa / telp Otomatis - Integrasi sosmed/lapak media (shopee/lazada, tokopedia, JD, dll) - Website Bergaransi selamanya ( full support System 24 Jam On) - Website SSL (standar industry/protokol keamanan) - Integrasi google map - Integrasi standart kontak form - Free banner - Free logo - View web traffic - User password & video panduan edit web - Memakai platform WP Premium - Template premium terbaik & terpopuler - Respon server rata-rata 5 mili per-detik. - Plugin premium - Website terbaik bebas diakses di seluruh Dunia. - Website Anda kami jamin bisa dibuka dg kecepatan 5 mili per-detik. kalau login kan biasanya harus simpan data orang yang masuk kak, jadi itu perlu pemrograman atau coding wordpress bisa seperti ini juga kak. tinggal nanti email orang-orangnya bisa dicantumkan di dalam webnya. bisa sebagai editor, kontributor, admin dll atau mau coba yang lebih murah kak?",
+        "created_at": "2025-10-09T03:41:16"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat pagi terkait rencana pembuatan website, apakah jadi mau diproses di kami kak? FASILITAS WEB Fasilitas website yang bisa didapatkan jika membuat di tempat kami : 1. Free logo 2. Free baner 3. Free artikel original + SEO basic 4. Free support system selama web aktif 5. User password + video panduan pengeditan website 6. Bisa konsultasi kapan saja mulai dari jam 8 pagi sampai jam 4 sore hari kerja 7. Website dibuatkan dulu bayar setelah jadi (dp sebagai tanda jadi) 8. Pengerjaan cepat hasiil berkualitas, 3 sampai 4 hari kerja jadi 9. Kami perusahaan profesional yang terpercaya telah memiliki ribuan klien",
+        "created_at": "2025-10-18T03:18:27"
+      },
+      {
+        "role": "user",
+        "text": "Mohon maaf, untuk sementara ini belum",
+        "created_at": "2025-10-18T04:16:58"
+      }
+    ],
+    [
+      {
+        "role": "assistant",
+        "text": "Halo, selamat siang terkait rencana pembuatan website, apakah sudah bisa dilanjutkan diskusinya hari ini kak?",
+        "created_at": "2025-12-01T07:31:30"
+      }
+    ]
   ]
 }
