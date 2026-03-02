@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 # =========================
 INPUT_FILE = "response.json"
 OUTPUT_FILE = "cleaned_conversations.json"
-LIMIT_CONVERSATIONS = 10
+LIMIT_CONVERSATIONS = 20
 FOLLOWUP_HOURS = 20
 
 # =========================
