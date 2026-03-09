@@ -1,32 +1,59 @@
+import requests
 import json
 import os
 import re
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
+from openai import OpenAI
 
 # =========================
 # CONFIG
 # =========================
-INPUT_FILE = "response.json"
+CONV_IDS = list(range(11500, 11551))
 OUTPUT_FILE = "cleaned_conversations.json"
-LIMIT_CONVERSATIONS = 20
+LIMIT_CONVERSATIONS = 100
 FOLLOWUP_HOURS = 20
+
+# =========================
+# LOAD ENV
+# =========================
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+# =========================
+# GET DATA
+# =========================
+URL = os.getenv("URL_API")
+
+def get_data(conversation_ids):
+    """Mengambil data untuk dicleaning"""
+    params = {
+        "conversation_ids": ",".join(map(str, conversation_ids))
+    }
+
+    response = requests.get(URL, params=params)
+    response.raise_for_status()
+
+    data = response.json()
+    return data
 
 # =========================
 # TEXT FILTERING FUNCTIONS
 # =========================
-
-# Menghapus spasi berlebih
 def clean_text(text):
+    """Menghapus spasi berlebih"""
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
-# Menghapus teks yang hanya berisi link
 def is_link_only(text):
+    """Menghapus teks yang hanya berisi link"""
     url_pattern = r'^(https?://[^\s]+|www\.[^\s]+)$'
     return re.match(url_pattern, text.lower()) is not None
 
-# Menghapus teks yang hanya berisi emoji
 def is_emoji_only(text):
+    """Menghapus teks yang hanya berisi emoji"""
     if not text:
         return True
 
@@ -36,16 +63,12 @@ def is_emoji_only(text):
 
     return bool(emoji_pattern.match(text))
 
-# Menghapus teks yang kurang relevan
 def is_low_information(text):
+    """Menghapus teks yang kurang relevan"""
     text = text.strip().lower()
 
     # Teks terlalu pendek <= 1 huruf
     if len(text) <= 1:
-        return True
-
-    # Hanya karakter sama berulang (hehehe, wkwkwk, aaa)
-    if len(set(text)) <= 2 and len(text) <= 6:
         return True
 
     # Tidak ada huruf atau angka (spasi)
@@ -54,24 +77,82 @@ def is_low_information(text):
 
     return False
 
+def remove_punctuation(text):
+    """Hapus tanda baca berlebihan"""
+    text = re.sub(r'([!?.,])\1+', r'\1', text)
+    text = re.sub(r'\s+([!?.,])', r'\1', text)
+    return text.strip()
+
+def remove_number_censored(text):
+    """Hapus kata 'number censored' saja"""
+    text = re.sub(r'\bnumber censored\b', '', text, flags=re.IGNORECASE)
+    return text.strip()
+
+# =========================
+# LLM BATCH FILTERING FUNCTIONS
+# =========================
+def trigger_llm(text):
+    triggers = ["hehe", "wkwk", "hmmm"]
+    return any(w in text.lower() for w in triggers)
+
+def llm_filter_batch(text):
+    """Prompt filter teks menggunakan LLM"""
+    if not text:
+        return []
+
+    prompt_messages = []
+    batch_text = """Bersihkan setiap message berikut:
+    - Hapus kata/kalimat tidak relevan (misal: filler seperti hehe, wkwk)
+    - Jangan menghapus emoji jika masih ada teks lain
+    - Jangan ubah kata lain atau struktur kalimat
+    - Output hanya teks bersih tanpa penjelasan tambahan
+    """
+
+    for i, msg in enumerate(text, 1):
+        batch_text += f"Message {i}: \"{msg}\"\n"
+
+    batch_text += "\nKembalikan hasil dalam format:\nMessage 1: <hasil>\nMessage 2: <hasil>\n..."
+
+    prompt_messages = [
+        {"role": "system", "content": "Kamu adalah filter teks percakapan, hanya menghapus noise."},
+        {"role": "user", "content": batch_text}
+    ]
+
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            temperature=0,
+            messages=prompt_messages
+        )
+        result_text = response.choices[0].message.content.strip()
+
+    except Exception as e:
+        print("LLM batch error:", e)
+        return text
+
+    # Memisahkan setiap message
+    cleaned = []
+    for i in range(1, len(text)+1):
+        pattern = rf"Message {i}:\s*(.*)"
+        match = re.search(pattern, result_text)
+        if match:
+            cleaned.append(match.group(1).strip())
+        else:
+            cleaned.append(text[i-1])
+    return cleaned
+
 # =========================
 # MAIN PROCESS
 # =========================
-
 def run_cleaning_process():
+    """Menjalankan proses mengambil dan cleaning data"""
+    data = get_data(CONV_IDS)
+    keys = list(data.keys())
 
-    if not os.path.exists(INPUT_FILE):
-        print(f"File {INPUT_FILE} tidak ditemukan.")
-        return
-
-    with open(INPUT_FILE, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    selected_keys = (
-        list(data.keys())
-        if not LIMIT_CONVERSATIONS
-        else list(data.keys())[:LIMIT_CONVERSATIONS]
-    )
+    if LIMIT_CONVERSATIONS:
+        selected_keys = keys[:LIMIT_CONVERSATIONS]
+    else:
+        selected_keys = keys
 
     cleaned_result = {}
 
@@ -85,26 +166,17 @@ def run_cleaning_process():
         # 1. BASIC FILTERING
         # =========================
         for chat in raw_chats:
-
             role = chat.get("role", "").lower()
             text = chat.get("chat", "")
             created_at = chat.get("created_at")
 
-            if role == "media":
-                continue
-
-            if not text:
+            if role == "media" or not text:
                 continue
 
             text = clean_text(text)
+            text = remove_number_censored(text)
 
-            if is_link_only(text):
-                continue
-
-            if is_emoji_only(text):
-                continue
-
-            if is_low_information(text):
+            if is_link_only(text) or is_emoji_only(text) or is_low_information(text):
                 continue
 
             filtered.append({
@@ -114,20 +186,17 @@ def run_cleaning_process():
             })
 
         if not filtered:
-            cleaned_result[conv_id] = []
             continue
 
         # =========================
         # 2. MERGE CONSECUTIVE ROLE
         # =========================
         merged_messages = []
-
         buffer_role = None
         buffer_text = []
         buffer_time = None
 
         for msg in filtered:
-
             role = msg["role"]
             text = msg["text"]
             time = datetime.fromisoformat(
@@ -145,23 +214,46 @@ def run_cleaning_process():
             if role == buffer_role and time_diff <= timedelta(hours=FOLLOWUP_HOURS):
                 buffer_text.append(text)
             else:
-                merged_messages.append({
-                    "role": buffer_role,
-                    "text": " ".join(buffer_text),
-                    "created_at": buffer_time.isoformat()
-                })
+                combined_text = " ".join(buffer_text)
+                combined_text = remove_punctuation(combined_text).strip()
+
+                if combined_text:
+                    if trigger_llm(combined_text):
+                        cleaned_text = llm_filter_batch([combined_text])[0].strip()
+                    else:
+                        cleaned_text = combined_text
+
+                    if cleaned_text and not is_emoji_only(cleaned_text):
+                        merged_messages.append({
+                            "role": buffer_role,
+                            "text": cleaned_text,
+                            "created_at": buffer_time.isoformat()
+                        })
 
                 buffer_role = role
                 buffer_text = [text]
                 buffer_time = time
 
         if buffer_role is not None:
-            merged_messages.append({
-                "role": buffer_role,
-                "text": " ".join(buffer_text),
-                "created_at": buffer_time.isoformat()
-            })
+            combined_text = " ".join(buffer_text)
+            combined_text = remove_punctuation(combined_text).strip()
 
+            if combined_text:
+                if trigger_llm(combined_text):
+                    cleaned_text = llm_filter_batch([combined_text])[0].strip()
+                else:
+                    cleaned_text = combined_text
+
+                if cleaned_text and not is_emoji_only(cleaned_text):
+                    merged_messages.append({
+                        "role": buffer_role,
+                        "text": cleaned_text,
+                        "created_at": buffer_time.isoformat()
+                    })
+        
+        if not merged_messages:
+            continue
+                    
         # =========================
         # 3. SESSION SPLIT (>20 JAM)
         # =========================
@@ -170,7 +262,6 @@ def run_cleaning_process():
         last_user_time = None
 
         for msg in merged_messages:
-
             current_time = datetime.fromisoformat(msg["created_at"])
             role = msg["role"]
 
@@ -203,8 +294,10 @@ def run_cleaning_process():
         json.dump(cleaned_result, f, indent=2, ensure_ascii=False)
 
     print("\nSelesai.")
-    print(f"Hasil disimpan di: {OUTPUT_FILE}")
+    print(f"Hasil ditambahkan ke: {OUTPUT_FILE}")
 
-
+# =========================
+# RUN
+# =========================
 if __name__ == "__main__":
     run_cleaning_process()
