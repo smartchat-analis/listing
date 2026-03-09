@@ -4,7 +4,7 @@ from main_chatbot import ChatBot
 app = Flask(__name__)
 
 # Import main program chatbot
-chatbot = ChatBot("conversation_embeddings.json")
+chatbot = ChatBot()
 
 @app.route("/chat", methods=["POST"])
 def chat():
@@ -23,12 +23,18 @@ def chat():
         }), 400
 
     try:
-        response = chatbot.chat(message, conv_id)
+        result = chatbot.chat(message, conv_id)
 
         return jsonify({
             "status": "success",
             "conv_id": conv_id,
-            "response": response
+            "response": result.get("answer"),
+            "product": result.get("product"),
+            "package": result.get("package"),
+            "intent": result.get("intent"),
+            "user_name": result.get("user_name"),
+            "company_name": result.get("company_name"),
+            "business_type": result.get("business_type")
         }), 200
 
     except Exception as e:
@@ -37,6 +43,8 @@ def chat():
             "message": str(e)
         }), 500
 
-
+# =========================
+# RUN
+# =========================
 if __name__ == "__main__":
     app.run(debug=True)
